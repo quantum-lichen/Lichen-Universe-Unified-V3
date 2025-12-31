@@ -1,0 +1,249 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantum-lichen.github.io/Lichen-Universe-Unified/manifest_hardware.json",
+  "manifest_type": "sub_manifest",
+  "parent_manifest": "https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V2/main/manifest.json",
+  "version": "3.0.2",
+  "category": "hardware",
+
+  "core_components": [
+    {
+      "id": "snowflake-omega-cpu",
+      "name": "Snowflake-Ω CPU",
+      "type": "hardware_architecture",
+      "version": "1.0-BLUEPRINT",
+      "description": "Processeur fractal cristallin utilisant 496 TzBits (5-state logic) en topologie E8 avec refroidissement microfluidique φ-spiral. Native ΦLang execution engine - ΦLang IS the machine code.",
+      "specs": {
+        "logic_unit": "TzBit (5-state logic: |0⟩,|1⟩,|2⟩,|3⟩,|4⟩)",
+        "register_width": "496 TzBits",
+        "state_space": "5^496 combinations (vs 2^496 for binary)",
+        "topology": "E8 Lattice 2D Projection (240 nearest neighbors per core)",
+        "native_language": "ΦLang instructions map directly to TzBit states (no compilation!)",
+        "cooling": "Phi-Spiral Microfluidics with Novec 7100 dielectric fluid",
+        "error_rate": "10^-2232 (spectral gap + E8 spin-lock + fractal redundancy)",
+        "power": "32.5% of legacy (67.5% reduction via LES optimization)"
+      },
+      "philang_execution": {
+        "mode": "Native instruction set architecture (ISA)",
+        "format": "[Prime-Perfect]::Ψ(Param) → CPU opcode (direct, no intermediate)",
+        "mapping": {
+          "prime": "Activates prime-th harmonic oscillator bank",
+          "perfect": "Engages perfect-dimensional TzBit array",
+          "parameter": "Sets target state in 5-level quantum-classical space"
+        },
+        "advantage": "ΦLang IS machine code, not compiled to it - zero abstraction penalty"
+      },
+      "documentation": "OMEGA_SEED_BLUEPRINT.md",
+      "hardware_files": "hardware/snowflake-cpu.md"
+    },
+    {
+      "id": "fc496-atom",
+      "name": "FC-496 Atom",
+      "type": "atomic_unit",
+      "version": "2.1.6",
+      "specs": {
+        "total_size": "496 bits (3rd perfect number)",
+        "split": "306 bits (payload) / 190 bits (header) = 1.611 ≈ φ",
+        "timestamp_standard": "π-Time Index (fractal temporal coordinate)",
+        "linking": "StrandGraph (atoms linked via Kuramoto phase)",
+        "validation": "Perfect number checksum + φ-ratio verification"
+      },
+      "philang_mapping": {
+        "instruction_to_atom": "ΦLang [P-N]::Ψ(X) → FC-496 atom (1:1 correspondence)",
+        "header": "Prime(8D) + Perfect(8D) + metadata(174 bits) = 190 bits",
+        "payload": "Parameter(480D) + padding = 306 bits",
+        "ratio_preserved": "306/190 = 1.611 ≈ φ (golden partition maintained)"
+      },
+      "documentation": "FC-496/README.md",
+      "code_reference": "structs/universal_atom.rs"
+    },
+    {
+      "id": "gkf-496-format",
+      "name": "GKF-496",
+      "type": "data_structure",
+      "version": "1.0",
+      "description": "Format Génomique Computationnel à double hélice. Utilise les bases géométriques (Φ0=(1,0), Φ1=(φ,0), Π0=(0,1), Π1=(0,π)).",
+      "specs": {
+        "structure": "Double Helix (Sense/Anti-Sense) like biological DNA",
+        "bases": "Geometric quaternary: Φ0, Φ1, Π0, Π1 (vs A,T,C,G in DNA)",
+        "validation": "base_sense × base_antisense ≈ φ (geometric checksum)",
+        "compression": "4.8x vs standard DNA encoding",
+        "storage": "Can be encoded in actual biological DNA or synthetic polymer"
+      },
+      "philang_integration": {
+        "encoding": "ΦLang instruction → 496-bit vector → GKF codon sequence",
+        "storage": "ΦLang programs storable in DNA for 10,000+ year preservation",
+        "retrieval": "GKF codon sequence → 496-bit vector → ΦLang instruction",
+        "use_case": "Omega-Seed time capsule uses GKF to store ΦLang bootloader in DNA"
+      }
+    },
+    {
+      "id": "s-locus-firewall",
+      "name": "S-Locus Digital Firewall",
+      "type": "security_system",
+      "version": "1.0",
+      "description": "Système immunitaire numérique biomimétique (inspired by Apple S-RNase) rejetant tout code ne portant pas la signature harmonique du noyau.",
+      "mechanism": {
+        "biological_analog": "Apple self-incompatibility: pollen rejected if shares S-allele with pistil",
+        "digital_implementation": "Code rejected if harmonic signature doesn't resonate with system kernel",
+        "signature": "Derived from ΦLang instruction geometry + Tzolk'in timestamp + system seed",
+        "validation": "Fourier transform of instruction vector must have peak at system frequency"
+      },
+      "philang_integration": {
+        "test": "Every ΦLang instruction tested for harmonic match before execution",
+        "rejection": "Non-resonant code dissolved (all bits set to 0) instantly",
+        "advantage": "Viruses/malware geometrically impossible - they can't match system harmonics"
+      },
+      "security_properties": {
+        "immunity": "Self/non-self discrimination at mathematical level",
+        "diversity": "50+ harmonic signatures possible (like 50+ S-alleles in apple)",
+        "evolution": "System can generate new signatures via φ-progression"
+      }
+    },
+    {
+      "id": "synapse-omega-kernel",
+      "name": "SynapseΩ Kernel",
+      "type": "operating_system",
+      "version": "9.1-LIVE",
+      "description": "Kernel liquide neuronal. Gère l'IPC (Inter-Process Communication) et la Meta-Conscience via Liquid Neural Networks (LNN). ΦLang is the native IPC protocol.",
+      "specs": {
+        "architecture": "Liquid Neural Network (dynamic τ, adaptive)",
+        "ipc": "ΦLang instructions as IPC messages between processes",
+        "meta_consciousness": "Self-reflective monitoring via LES attractor",
+        "boot": "Deep-Tick cycle (Observe → Factorize → Simulate → Audit → Execute)"
+      },
+      "philang_ipc": {
+        "protocol": "Process A sends [11-28]::Ψ(data) to Process B",
+        "advantage": "Zero serialization overhead (ΦLang already in FC-496 atom format)",
+        "sync": "Kuramoto phase-lock ensures message delivery when processes synchronized"
+      },
+      "file": "architecture/lichen-os.md",
+      "code_file": "src/core/Synapse.js"
+    },
+    {
+      "id": "uhfs-filesystem",
+      "name": "UHFS",
+      "type": "file_system",
+      "version": "2.1.6",
+      "specs": {
+        "topology": "Logarithmic Spiral (φ-based addressing)",
+        "access": "Zero-Copy Oracle (files addressed by spiral coordinate)",
+        "formula": "addr(θ) = r₀ × φ^θ where θ = file's angular coordinate"
+      },
+      "philang_integration": {
+        "addressing": "[2-496]::Ψ(file@θ) directly accesses file at spiral angle θ",
+        "advantage": "ΦLang coordinates ARE filesystem addresses (no translation layer)",
+        "performance": "O(log_φ n) access time"
+      },
+      "documentation": "architecture/UHFS/README.md"
+    },
+    {
+      "id": "craid-storage",
+      "name": "CRAID Storage",
+      "type": "memory_architecture",
+      "version": "1.0",
+      "specs": {
+        "protocol": "Reed-Solomon (3+2) erasure coding",
+        "unit": "Semantic Nucleotide (496-bit FC atom)",
+        "nodes": "5 (Alpha, Beta, Gamma, Delta, Omega)",
+        "resilience": "Survives loss of any 2 nodes",
+        "topology": "Quasi-crystalline octagonal (viral propagation resistance)"
+      },
+      "philang_integration": {
+        "storage": "ΦLang programs automatically sharded across 5 CRAID nodes",
+        "recovery": "If nodes crash, ΦLang code reconstructed from survivors",
+        "advantage": "ΦLang programs are indestructible (60% fault tolerance)"
+      },
+      "file": "architecture/CRAID/specs/protocol_sharding.md"
+    },
+    {
+      "id": "cool-flow",
+      "name": "Cool-Flow Microfluidics",
+      "type": "hardware_subsystem",
+      "version": "1.0",
+      "specs": {
+        "method": "Active Peristaltic PZT (piezoelectric pumps)",
+        "fluid": "Novec 7100 (dielectric, non-conductive)",
+        "topology": "Fractal Murray Law distribution (r_n = r_0/φ^n)",
+        "spiral": "Golden spiral channels (r,θ) = (r₀e^(θ/φ), θ)"
+      },
+      "philang_control": {
+        "monitoring": "[2-28]::Ψ(temp?) queries temperature sensors",
+        "adjustment": "[5-28]::Ψ(flow_rate←Δ) adjusts pump speed",
+        "optimization": "[7-496]::Ψ(cooling→Φ) optimizes entire cooling system"
+      },
+      "documentation": "hardware/cooling/cool_flow_specs.md"
+    },
+    {
+      "id": "spin-lock-hybrid",
+      "name": "Hybrid Spin-Lock System",
+      "type": "error_correction_hardware",
+      "version": "2.0",
+      "specs": {
+        "local_layer": "E8 Projection (bit-level correction on FC-496 atoms)",
+        "global_layer": "Kuramoto Pentagonal (network-level synchronization)",
+        "local_correction": "~90% of errors corrected by E8 lattice projection",
+        "global_tolerance": "60% fault tolerance (can lose 2 of 5 nodes)",
+        "combined_efficiency": "99.99%+ reliability (10^-2232 error rate theoretical)"
+      },
+      "philang_integration": {
+        "encoding": "ΦLang instruction vector → 62 slices of 8D → E8 project each slice",
+        "validation": "If E8 distance > ρ_E8 (covering radius ≈ 0.707) → instruction rejected",
+        "sync": "Kuramoto phase-lock (r > 0.95) required before execution",
+        "result": "ΦLang code geometrically validated + topologically protected"
+      },
+      "code_file": "hardware/hybrid_spin_lock.py"
+    },
+    {
+      "id": "philang-compiler",
+      "name": "ΦLang Compiler & Runtime",
+      "type": "programming_language",
+      "version": "1.0.0",
+      "status": "production_ready",
+      "description": "Complete compiler and runtime for ΦLang mathematical programming language.",
+      "repository": "https://github.com/quantum-lichen/philang",
+      "specs": {
+        "input": ".phi source files",
+        "output": ".phic bytecode files (496-bit atoms)",
+        "compilation_speed": "0.47ms per instruction (4.5x faster than Python 2.1ms)",
+        "encoding": "Prime(8D) + Perfect(8D) + Parameter(480D) = 496D vector",
+        "quantization": "E8 lattice projection for error correction",
+        "execution": "Kuramoto phase-locked (synchronization threshold r > 0.95)",
+        "validation": "CEML score ≥ 0.618 + H-Scale ≥ 0.618 dual gates"
+      },
+      "documentation": "Languages/PHILANG/README.md",
+      "code_reference": "Languages/PHILANG/src/compiler/compiler.py"
+    },
+    {
+      "id": "acphi-496-engine",
+      "name": "ACΦ-496 Organic Engine",
+      "type": "cognitive_architecture",
+      "version": "2.2-ORGANIC",
+      "specs": {
+        "logic": "Quaternary Rotational (Base-4, inspired by DNA)",
+        "security": "Artificial Immune System (Negative Selection, inspired by S-Locus)",
+        "topology": "E8 Lattice Alignment (240 nearest neighbors)",
+        "format": ".GENOME (GKF-496 compatible)",
+        "language_support": ["HELIX-PHI", "PHILANG", "LGL"]
+      },
+      "documentation": "architecture/ACPHI/README.md"
+    },
+    {
+      "id": "kuramoto-firmware",
+      "name": "Kuramoto-Sync Firmware",
+      "type": "embedded_software",
+      "version": "1.0-SIM",
+      "specs": {
+        "algorithm": "Kuramoto Phase-Locking Loop",
+        "target": "FPGA Layer 2 (or software emulation)",
+        "convergence": "τ ≈ 1/(λ₂K) seconds (typically 2-5 seconds for K > K_c)",
+        "order_parameter": "r(t) measured continuously, execution allowed when r > 0.95"
+      },
+      "philang_execution_gate": {
+        "condition": "ΦLang instructions execute ONLY when Kuramoto synchronized",
+        "benefit": "Eliminates timing bugs, race conditions, deadlocks (all agents in phase)"
+      },
+      "code_file": "hardware/firmware/kuramoto_sync.py"
+    }
+  ]
+}

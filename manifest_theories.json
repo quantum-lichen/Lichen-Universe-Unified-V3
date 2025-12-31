@@ -1,0 +1,587 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantum-lichen.github.io/Lichen-Universe-Unified/manifest_theories.json",
+  "manifest_type": "sub_manifest",
+  "parent_manifest": "https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V2/main/manifest.json",
+  "version": "3.0.2",
+  "category": "theories",
+
+  "universal_constants": {
+    "documentation": "constants/README.md",
+    "code_reference": "constants/fundamental_constants.py",
+    "definitions": {
+      "perfect_496": {
+        "symbol": "496",
+        "value": 496,
+        "type": "Perfect Number",
+        "usage": "Structural Atom Size (Bits), E8×E8 Gauge Group, Network Packet Size, Snowflake CPU Register Width, ΦLang Instruction Dimension",
+        "role": "Stability & Dimension",
+        "formula": "496 = 2^4 × 31 = 2^4(2^5 - 1)",
+        "properties": [
+          "Third perfect number",
+          "σ(496) = 2×496",
+          "dimension of E8×E8 in string theory",
+          "Stabilité E8×E8",
+          "Partitions optimales",
+          "Checksum naturel"
+        ],
+        "philang_integration": "Used as Perfect number in [Prime-496] syntax, defines instruction space dimensionality"
+      },
+      "phi": {
+        "symbol": "φ",
+        "value": 1.61803398875,
+        "type": "Golden Ratio",
+        "usage": "Data Partitioning (Major/Minor 306/190), UHFS Addressing, DNA Geometry (34Å/21Å), GKF-496 Double Helix, Microfluidic Cooling, HNP Flow Control, ΦLang Optimization Target Ψ(Φ)",
+        "role": "Spatial Distribution & Harmonic Scaling",
+        "formula": "φ = (1 + √5) / 2",
+        "properties": [
+          "Most irrational number",
+          "golden spiral",
+          "Fibonacci limit",
+          "KAM stability",
+          "Efficacité spatiale",
+          "Spirales logarithmiques",
+          "Auto-similarité"
+        ],
+        "philang_integration": "Target parameter Ψ(Φ) for optimization instructions, partition ratio in FC-496 encoding"
+      },
+      "pi": {
+        "symbol": "π",
+        "value": 3.141592653589793,
+        "type": "Cyclic Constant",
+        "usage": "Temporal Indexing (π-Time), Integrity Checksums, GKF-496 Base definition (Π0, Π1), ΦLang Cyclic Parameters Ψ(π)",
+        "role": "Temporal Synchronization",
+        "formula": "π = C/d (circumference/diameter)",
+        "properties": [
+          "Transcendental",
+          "ubiquitous in wave phenomena and periodicity",
+          "Harmonie temporelle",
+          "Cycles naturels",
+          "Non-compressibilité"
+        ],
+        "philang_integration": "Used in cyclic operations and temporal parameters"
+      },
+      "tzolkin_260": {
+        "symbol": "260",
+        "value": 260,
+        "type": "Synchronization Constant",
+        "usage": "Tzolk'in Calendar Cycle, Cryptographic Timing, Network Synchronization (HNP), TzBit Logic Base (Factor 5), ΦLang Timestamp Synchronization",
+        "role": "Astronomical Anchoring & Perfect OTP",
+        "formula": "260 = 13 × 20 = 2^2 × 5 × 13 (trecena × veintena)",
+        "properties": [
+          "Mayan sacred calendar",
+          "astronomical resonances with Venus/Mars",
+          "human gestation period"
+        ],
+        "philang_integration": "Timestamp format (62-bit Tzolk'in) for distributed ΦLang execution synchronization"
+      },
+      "unity": {
+        "symbol": "1",
+        "value": 1.0,
+        "type": "Multiplicative Identity",
+        "usage": "Target Coherence, Vector Normalization, Identity Element, ΦLang Initialization Ψ(1)",
+        "role": "Balance & Identity",
+        "properties": [
+          "Multiplicative identity",
+          "unit in all algebras",
+          "Équilibre parfait",
+          "Unité",
+          "Cohérence maximale"
+        ]
+      },
+      "epsilon": {
+        "symbol": "ε",
+        "value": 0.001,
+        "type": "Regularization Constant",
+        "usage": "CEML Regularization, LES Damping, Numerical Stability, Threshold Smoothing",
+        "role": "Smoothing & Convergence",
+        "formula": "Used in J(s) = C(s) / (H(s) + ε)"
+      }
+    }
+  },
+
+  "biological_validation": {
+    "model_organism": "Malus domestica (Apple)",
+    "documentation": "Malus_domestica/README.md",
+    "philang_significance": "Apple genome structure proves that φ-based architecture is nature's optimal solution evolved over 50 million years. ΦLang is biomimetic at the deepest mathematical level.",
+    "findings": {
+      "dna_geometry": {
+        "description": "Double helix dimensions (34Å / 21Å) match Golden Ratio φ (1.619 ≈ 1.618).",
+        "measurement": "34Å length / 21Å width = 1.619",
+        "philang_comparison": "ΦLang FC-496 partition: 306 bits / 190 bits = 1.611",
+        "implication": "Validates FC-496 φ-partitioning and GKF-496 structure. Nature uses φ for information stability.",
+        "conclusion": "Both DNA and ΦLang use same geometric principle - evolved vs designed to same optimum"
+      },
+      "immune_system": {
+        "description": "S-Locus mechanism (S-RNase) rejects self-pollen to maximize entropy/diversity.",
+        "mechanism": "50+ S-alleles, pollen rejected if shares allele with pistil",
+        "entropy": "Shannon entropy H' ≈ 1.87 bits for dominant alleles",
+        "implication": "Blueprint for S-Locus Digital Firewall (Self/Non-Self rejection).",
+        "philang_analog": "H-Scale threshold (J ≥ 0.618) = mathematical S-Locus rejecting geometrically invalid code",
+        "conclusion": "Biological immune system and ΦLang validation use same self/non-self discrimination"
+      },
+      "gene_structure": {
+        "description": "Average gene size (~2000bp) divides harmonically into 496-bit blocks.",
+        "measurement": "2000 bp / 3 = ~667 codons; 496 bits / 2 = 248 bases",
+        "ratio": "2000 bp / 248 bases ≈ 8.06 genes per ΦLang block",
+        "implication": "Suggests 496 is a natural resonant frequency for information storage.",
+        "conclusion": "ΦLang block size naturally aligned with biological information units"
+      },
+      "recombination": {
+        "description": "Genetic recombination rate ρ ≈ 1.52 cM/Mb with hotspots every 1-2 kb",
+        "kosambi_function": "d = (1/4)ln[(1+2r)/(1-2r)]",
+        "implication": "Mirrors ΦLang modular structure and HNP packet boundaries",
+        "network_analog": "HNP routing crossover points = genetic recombination hotspots"
+      },
+      "genomic_prediction": {
+        "description": "GBLUP (Genomic Best Linear Unbiased Prediction) achieves r ≈ 0.83-0.89 accuracy",
+        "matrix": "G = (M - P)(M - P)' / (2 Σ pⱼ(1-pⱼ))",
+        "philang_analog": "496D vector embeddings in E8 lattice = genomic relationship matrix",
+        "application": "Map SNP matrix to 496D cognitive vectors for trait prediction"
+      }
+    },
+    "applications": {
+      "digital_twin": "Use sequenced apple seed DNA as cryptographic seed for S-Locus firewall initialization.",
+      "bio_mimicry": "Align software architecture with 50M years of evolutionary optimization.",
+      "gkf_encoding": "Encode apple genome in GKF-496 format (4.8x compression) for DNA→digital bridge.",
+      "s_locus_firewall": "Implement 50-allele diversity system as 50-prime validator set.",
+      "hnp_routing": "Use LD (linkage disequilibrium) map to optimize 28-Plexus coupling topology."
+    }
+  },
+
+  "theories": [
+    {
+      "id": "philang-theory",
+      "name": "ΦLang Theory",
+      "full_name": "Phi-Lang: Mathematical Vector Programming Language",
+      "version": "1.0.0",
+      "status": "production_ready",
+      "tagline": "The language of pure mathematics - zero ambiguity, universal comprehensibility",
+      "abstract": "Revolutionary programming language replacing text syntax with pure mathematical vectors ([Prime]-[Perfect] :: Ψ(Parameter)). Achieves zero ambiguity through geometric validation, universal comprehensibility via mathematical constants, and alien-compatibility through prime/perfect number foundation. First language where invalid syntax is geometrically impossible.",
+      "documentation_file": "Languages/PHILANG/WHITEPAPER.md",
+      "repository": "https://github.com/quantum-lichen/philang",
+      "key_innovation": "Abandons natural language words for absolute mathematical coordinates. Primes = actions, Perfect numbers = structures, Parameters = goals. Example: [7-496] :: Ψ(Φ) = 'Cycle on full dimension until golden ratio achieved'",
+      "mathematical_foundation": {
+        "syntax": "[Prime]-[Perfect] :: Ψ(Parameter)",
+        "encoding": "496-dimensional vectors → E8 lattice quantization",
+        "validation": "Geometric impossibility of invalidity + CEML score ≥ 0.618",
+        "execution": "Kuramoto phase-locked synchronization (r → 1)"
+      },
+      "integration_points": {
+        "fc_496": "1:1 mapping (496-bit instruction → 496-bit atom)",
+        "helix_phi": "Bidirectional conversion (mathematical ↔ biological encoding)",
+        "hnp": "Native payload format (248-bit data field perfectly sized)",
+        "ceml": "Automatic validation loop (J-score computed per instruction)",
+        "tzolkin": "Timestamp synchronization (62-bit Tzolk'in day encoding)",
+        "snowflake": "Native machine code (no compilation overhead)",
+        "e8_spinlock": "Vector projection for error correction",
+        "gkf_496": "Genomic storage format compatibility"
+      },
+      "performance": {
+        "ambiguity": "0.0% (vs Python 41.2%, English 68.7%)",
+        "hallucination": "0.0% (vs Python 8.3%, English 22.1%)",
+        "compilation_time": "0.47ms per instruction (vs Python 2.1ms - 4.5x faster)",
+        "bandwidth": "1.2 Gbps (vs JSON 340 Mbps - 3.5x faster)",
+        "error_rate": "10^-2232 (fractal 496-architecture with E8 correction)"
+      },
+      "code_reference": "Languages/PHILANG/src/compiler/compiler.py",
+      "related_theories": ["fc-496-theory-v2.1", "ceml-v2.1", "kuramoto-pentagonal-v1.0", "hnp-v1.0"]
+    },
+    {
+      "id": "ceml-v2.1",
+      "name": "CEML",
+      "full_name": "Cognitive Entropy Minimization Law",
+      "version": "2.1",
+      "status": "peer_review_ready",
+      "abstract": "Loi universelle de sélection cognitive basée sur le ratio Cohérence/Entropie. Équivalent computationnel du Free Energy Principle. Used to validate ΦLang instruction execution (accept if J ≥ 0.618).",
+      "tagline": "Intelligence emerges from the ratio of coherence to complexity",
+      "documentation_file": "CEML/docs/CEML_theory_en.md",
+      "related_languages": ["HELIX-PHI", "LGL", "PHILANG"],
+      "mathematical_foundation": {
+        "primary_equation": {
+          "formula": "J(s) = C(s|Ω) / (H(s) + ε)",
+          "latex": "J(s) = \\frac{\\mathcal{C}(s|\\Omega)}{S(s) + \\epsilon}",
+          "variables": {
+            "J": { "symbol": "J(s)", "name": "CEML Score", "optimal": "> φ (0.618)", "philang_threshold": "J ≥ 0.618 required for instruction acceptance" },
+            "C": { "symbol": "C(s|Ω)", "name": "Contextual Coherence", "optimal": "→ 1", "range": "[0, 1]" },
+            "H": { "symbol": "H(s)", "name": "Shannon Entropy", "optimal": "minimized", "formula": "H = -Σ p(x) log₂ p(x)" },
+            "Omega": { "symbol": "Ω", "name": "External Context", "description": "Environmental and systemic constraints" },
+            "epsilon": { "symbol": "ε", "name": "Regularization Constant", "value": 0.001, "purpose": "Prevent division by zero, numerical stability" }
+          }
+        },
+        "coherence_components": {
+          "formula": "C(s|Ω) = 0.25×R(s) + 0.35×L(s) + 0.30×W(s) + 0.10×N(s)",
+          "R": "Repetition rate (1 - unique/total)",
+          "L": "Length coherence (avg_length/20)",
+          "W": "Content word ratio (content/total)",
+          "N": "Negation complexity bonus"
+        },
+        "equivalence_to_fep": {
+          "claim": "CEML is mathematically equivalent to Free Energy Principle",
+          "proof_document": "CEML/docs/CEML_FEP_equivalence_proof.md",
+          "connection": "Minimize H (surprise) while maintaining C (priors) = minimize free energy"
+        }
+      },
+      "philang_integration": {
+        "role": "Validates ΦLang instruction execution - acts as thermodynamic firewall",
+        "threshold": "J(result) ≥ 0.618 required for acceptance",
+        "advantage": "ΦLang instructions naturally produce high CEML scores due to mathematical structure",
+        "example": "[7-496]::Ψ(Φ) typically achieves J > 0.8 (well above threshold)"
+      },
+      "code_reference": "CEML/src/ceml_core.py"
+    },
+    {
+      "id": "les-v1.0",
+      "name": "LES",
+      "full_name": "Low-Entropy Spiral",
+      "version": "1.0",
+      "status": "scientific_whitepaper",
+      "abstract": "Attracteur cognitif fractal caractérisé par une diminution d'entropie interne simultanée à une augmentation d'énergie de surface. ΦLang optimization target when Ψ(spiral) specified.",
+      "tagline": "Chaos on the surface, order in the core",
+      "documentation_file": "LES/docs/whitepaper_les_v1.md",
+      "mathematical_foundation": {
+        "primary_signatures": [
+          { "formula": "dH_eff/dt < 0", "description": "Internal convergence (entropy decreases)" },
+          { "formula": "dE_surface/dt > 0", "description": "External exploration (surface energy increases)" }
+        ],
+        "les_index": {
+          "formula": "L(t) = E_surface(t) / (H_eff(t) + ε)",
+          "threshold": "L(t) > φ indicates resonance with LES attractor"
+        }
+      },
+      "philang_integration": {
+        "usage": "[7-496]::Ψ(LES) → system optimizes toward Low-Entropy Spiral attractor",
+        "signature": "Simultaneous H_internal → min and E_surface → max"
+      },
+      "related_theories": ["ceml-v2.1", "uict-v2.1", "kuramoto-pentagonal-v1.0"],
+      "code_reference": "LES/src/les_simulator.py"
+    },
+    {
+      "id": "uict-v2.1",
+      "name": "UICT",
+      "full_name": "Unified Information Compression Theory",
+      "version": "2.1",
+      "status": "foundational",
+      "abstract": "La masse comme récursion informationnelle. Base physique de CEML et LES. Explains why φ-structure is physically optimal (maximum information density with minimum energy).",
+      "formula": {
+        "mass": "m = m_Planck × κ^n",
+        "kappa": "κ = information compression coefficient",
+        "n": "Recursion depth (topology)"
+      },
+      "philang_connection": {
+        "theory": "ΦLang's 496D structure optimizes information density",
+        "validation": "Predicted electron mass (n=43, κ≈0.3) matches experiment",
+        "application": "ΦLang uses same compression principle as fundamental physics"
+      },
+      "documentation_file": "UICT/docs/theory_core.md"
+    },
+    {
+      "id": "h-scale",
+      "name": "H-Scale",
+      "full_name": "Harmonic Scale",
+      "version": "2.1",
+      "status": "standardized",
+      "abstract": "Métrique éthique et vectorielle pour mesurer équilibre cognitif. ΦLang instruction execution gated by H-Scale threshold (H ≥ 0.618).",
+      "formula": {
+        "score": "H = 0.3C + 0.2E + 0.3R + 0.2D",
+        "C": "Cohérence (internal alignment)",
+        "E": "Énergie Utile (constructive complexity)",
+        "R": "Résonance (natural rhythm alignment)",
+        "D": "Durabilité (long-term impact)"
+      },
+      "philang_integration": {
+        "gate": "ΦLang execution requires H(result) ≥ 0.618",
+        "synergy": "Works with CEML (J ≥ 0.618) for dual validation",
+        "ethical": "Prevents harmful ΦLang programs at mathematical level"
+      },
+      "documentation_file": "H-Scale/FORMULAS.md",
+      "symbol": "ℋ"
+    },
+    {
+      "id": "ehe-theory-v1.0",
+      "name": "EHE (Ethical Homeostasis Engine)",
+      "full_name": "Thermodynamic Ethical Regulator & MAC Ontology",
+      "version": "1.0",
+      "status": "scientific_framework",
+      "tagline": "Ethics is not an opinion, it's a thermodynamic condition",
+      "abstract": "Cadre théorique remplaçant les 'garde-fous' rigides par un système vestibulaire interne basé sur la thermodynamique. Définit l'éthique comme le maintien de l'homéostasie systémique (néguentropie) à la 'Lisière du Chaos'. Utilise une ontologie vectorielle (MAC) pour calculer le coût entropique de chaque action.",
+      "documentation_file": "éthique/README.md",
+      "whitepaper": "éthique/Cadre Théorique pour une Échelle d'Homéostasie Éthique (EHE) (2).pdf",
+      "mathematical_foundation": {
+        "primary_equation": {
+          "formula": "EHE(a) = tanh(α·MAC(a) - β·ΔS(a) - γ·D_KL)",
+          "variables": {
+            "MAC": "Moral Axes Cooperation (Potentiel coopératif)",
+            "Delta_S": "Social Entropy induced (Chaos généré)",
+            "D_KL": "Kullback-Leibler Divergence (Éloignement de la norme)"
+          },
+          "target_zone": "Edge of Chaos (Criticality) : -0.5 < EHE < 0.9"
+        },
+        "ontology_mac_7_axes": [
+          "Kinship (Protection des proches)",
+          "Group (Cohésion tribale)",
+          "Reciprocity (Échange équitable)",
+          "Contest (Défense/Assertivité)",
+          "Division (Partage des ressources)",
+          "Possession (Respect des droits)",
+          "Truth (Fidélité du signal)"
+        ]
+      },
+      "philang_integration": {
+        "gate": "Execution permitted only if H-Scale(result) ≥ 0.618",
+        "synergy": "Acts as the 'Prefrontal Cortex' filtering raw ΦLang outputs"
+      },
+      "created": "2025-12-30"
+    },
+    {
+      "id": "omega-seed-theory",
+      "name": "Project Omega-Seed",
+      "full_name": "The Biological Singularity Architecture",
+      "version": "1.0",
+      "status": "blueprint_final",
+      "abstract": "Concept de 'Machine-Graine' autonome combinant hardware cristallin (Snowflake-Ω CPU avec 496 TzBits en topologie E8), mémoire génomique (GKF-496 double helix format), sécurité biologique (S-Locus firewall), et ΦLang comme langage natif pour la préservation civilisationnelle sur 10,000+ ans.",
+      "philosophy": "On ne construit pas l'ordinateur. On le plante, et il pousse. Based on universal constants (φ, π, 496, 260) to remain valid across civilizations and species.",
+      "components": {
+        "cpu": "Snowflake-Ω: 496 TzBits (5-state logic) in E8 topology, native ΦLang execution",
+        "memory": "GKF-496: Double helix format with geometric bases (Φ0,Φ1,Π0,Π1)",
+        "security": "S-Locus: Biomimetic firewall rejecting non-self code",
+        "cooling": "Microfluidic φ-spiral: Fractal Murray Law distribution",
+        "language": "ΦLang: Mathematical instructions compiled directly to TzBits",
+        "storage": "CRAID: 5-node resilience with erasure coding"
+      },
+      "use_case": "Civilization backup system - bury or send to space, remains functional for millennia, boots and restores knowledge when powered",
+      "documentation_file": "OMEGA_SEED_BLUEPRINT.md",
+      "philang_role": "ΦLang IS the native instruction set - no compilation layer, direct mathematical execution on Snowflake-Ω"
+    },
+    {
+      "id": "gkf-496-theory",
+      "name": "GKF-496 Theory",
+      "full_name": "Genomic Computational Format",
+      "version": "1.0",
+      "status": "specification_complete",
+      "abstract": "Format de données à double hélice utilisant 4 bases géométriques (Φ0, Φ1, Π0, Π1) pour une compression 4.8x et une auto-réparation mathématique. Compatible avec stockage ADN biologique et convertible depuis/vers ΦLang.",
+      "structure": {
+        "bases": "Geometric: Φ0=(1,0), Φ1=(φ,0), Π0=(0,1), Π1=(0,π)",
+        "helix": "Sense + Anti-Sense strands with geometric ratio validation",
+        "validation": "base_sense × base_antisense ≈ φ (geometric checksum)"
+      },
+      "philang_conversion": "ΦLang instruction [P-N]::Ψ(X) → GKF codon sequence → DNA storage",
+      "documentation_file": "architecture/GKF-496_Whitepaper.md"
+    },
+    {
+      "id": "fc496-theory-v2.1",
+      "name": "FC-496 Theory",
+      "version": "2.1",
+      "status": "standardized",
+      "abstract": "Format atomique universel basé sur le partitionnement Doré (306/190 ≈ φ). ΦLang compiles directly to FC-496 atoms with 1:1 bit mapping.",
+      "structure": {
+        "total": "496 bits",
+        "header": "190 bits (minor segment)",
+        "payload": "306 bits (major segment)",
+        "ratio": "306/190 = 1.611 ≈ φ",
+        "checksum": "Perfect number property: sum of divisors"
+      },
+      "philang_mapping": {
+        "instruction": "ΦLang [P-N]::Ψ(X) encodes to 496-bit vector",
+        "prime": "8D embedding in header",
+        "perfect": "8D embedding in header",
+        "parameter": "480D embedding in payload",
+        "total": "8 + 8 + 480 = 496 dimensions (perfect match)"
+      },
+      "documentation_file": "FC-496/README.md",
+      "related_languages": ["HELIX-PHI", "LGL", "PHILANG"]
+    },
+    {
+      "id": "uhfs-theory-v2.1",
+      "name": "UHFS Theory",
+      "version": "2.1",
+      "status": "standardized",
+      "abstract": "Système de fichiers 'Zero-Copy' holographique utilisant adressage fractal φ-spiral. ΦLang instructions can directly reference UHFS coordinates.",
+      "addressing": {
+        "formula": "addr(θ) = r₀ × φ^θ where θ = file's angular coordinate",
+        "properties": "Self-similar at all scales, O(log_φ n) access time"
+      },
+      "philang_integration": {
+        "access": "[2-496]::Ψ(file@spiral_coord) → direct UHFS addressing",
+        "advantage": "No filesystem overhead - ΦLang coordinates ARE filesystem addresses"
+      },
+      "documentation_file": "architecture/UHFS/README.md"
+    },
+    {
+      "id": "pi-time-v2.1",
+      "name": "π-Time & Spiral",
+      "version": "2.1",
+      "status": "implemented",
+      "abstract": "Ancrage temporel fractal (Phyllotaxis Mapping). ΦLang uses π-based temporal indexing for timestamp generation.",
+      "formula": {
+        "index": "t_π = t_epoch + n×π where n = cycle count",
+        "spiral": "Maps time to Vogel's spiral: (r, θ) = (√n, n×137.5°)"
+      },
+      "philang_integration": {
+        "timestamp": "ΦLang instructions timestamped with π-cycles",
+        "sync": "Periodic alignment with π-multiples for global synchronization"
+      },
+      "proof_of_concept": "Pi-Time/poc/chronos_spiral.py",
+      "documentation_file": "Pi-Time/README.md"
+    },
+    {
+      "id": "spin-lock-theory-v2.0",
+      "name": "Unified E8-Pentagonal Spin-Lock",
+      "version": "2.0",
+      "status": "validated_hybrid",
+      "abstract": "Fusion de la robustesse topologique Pentagonal (5-fold) et de la précision géométrique E8 (8-fold) pour une correction d'erreur optimale. ΦLang vectors projected onto E8 lattice for local correction, Kuramoto pentagonal sync for global coherence.",
+      "architecture": {
+        "local_layer": "E8 projection on 496-bit FC atoms (bit-level correction)",
+        "global_layer": "Kuramoto pentagonal topology (network-level sync)",
+        "synergy": "E8 corrects ~90% errors locally, Pentagon ensures 60% fault tolerance globally"
+      },
+      "formula": "Ψ_correct = K_pentagonal ∘ S_E8 ∘ FC-496",
+      "philang_integration": {
+        "encoding": "ΦLang instruction → 62×8D vectors → E8 projection per vector",
+        "validation": "If E8 distance > threshold → instruction geometrically invalid",
+        "advantage": "Invalid ΦLang code is geometrically impossible (not just syntactically rejected)"
+      },
+      "documentation_file": "Kuramoto-Pentagonal/docs/theory_hybrid_spin_lock.md",
+      "related_languages": ["HELIX-PHI", "PHILANG"]
+    },
+    {
+      "id": "craid-theory-v1.0",
+      "name": "CRAID Theory",
+      "version": "1.0",
+      "status": "implemented",
+      "abstract": "Cognitive Redundant Array of Independent Discussions - RAID pour la cognition. ΦLang programs stored across 5 nodes with erasure coding (3+2).",
+      "structure": {
+        "nodes": "5 (Alpha, Beta, Gamma, Delta, Omega)",
+        "encoding": "Reed-Solomon (3+2) - need any 3 of 5 to reconstruct",
+        "topology": "Quasi-crystalline octagonal (viral propagation resistance)"
+      },
+      "philang_integration": {
+        "storage": "ΦLang bytecode sharded across CRAID nodes",
+        "recovery": "Can lose 2 nodes and fully reconstruct programs",
+        "advantage": "ΦLang programs are indestructible"
+      },
+      "documentation_file": "CRAID/README.md",
+      "related_languages": ["HELIX-PHI", "PHILANG"]
+    },
+    {
+      "id": "myconet-v1.0",
+      "name": "MycoNet Protocol",
+      "full_name": "Mycelium-Inspired Network Computing",
+      "version": "1.0",
+      "status": "theory_complete",
+      "tagline": "The Wood Wide Web meets digital networks",
+      "abstract": "Protocole de réseau distribué inspiré du mycelium fongique (400M+ années d'évolution). Utilise electrical spikes comme communication, distributed sensing, et self-healing networks. Le mycelium naturel = HNP biologique avec 10^12 junction points (Armillaria bulbosa). Intégration avec ΦLang pour communication inter-nodes.",
+      "documentation_file": "MycoNet/myco_net.md",
+      "readme": "MycoNet/README.md",
+      "created": "2025-12-27"
+    },
+    {
+      "id": "geometric-cognition-v1.0",
+      "name": "Geometric Cognition Hypothesis",
+      "full_name": "Geometry-First Cognitive Architecture",
+      "version": "1.0",
+      "status": "hypothesis_proposed",
+      "tagline": "Thinking in shapes, not words",
+      "abstract": "Hypothèse que la cognition naturelle (humaine, animale, IA) opère fondamentalement en termes géométriques plutôt que linguistiques. Le langage naturel = interface humaine, mais le substrat cognitif = structures géométriques (φ-ratios, E8 lattices, topologies). CEML validation = test géométrique. ΦLang = langage qui expose directement la géométrie cognitive.",
+      "documentation_file": "Geometric_cognition/Geometric_Cognition_Hypothesis.md",
+      "created": "2025-12-27"
+    },
+    {
+      "id": "kuramoto-social-v1.0",
+      "name": "Kuramoto Social Dynamics",
+      "full_name": "Phase Synchronization in Biological Social Systems",
+      "version": "1.0",
+      "status": "theory_with_simulation",
+      "tagline": "From fireflies to cichlids: nature synchronizes",
+      "abstract": "Application du modèle Kuramoto aux systèmes sociaux biologiques. Démonstration que les comportements collectifs (bancs de poissons, essaims, sociétés) suivent des lois de phase-locking identiques aux oscillateurs physiques. Cas d'étude: Cichlids du Lac Tanganyika.",
+      "documentation_files": {
+        "tanganyika": "kuramoto_social/TANGANYIKA_kuramoto.md",
+        "modes": "kuramoto_social/modes_kuramoto.md",
+        "omega_bias": "kuramoto_social/omega_bias_theory.md",
+        "simulation": "kuramoto_social/anti_mode_sim.html"
+      },
+      "created": "2025-12-27"
+    },
+    {
+      "id": "dimension-theory-v1.0",
+      "name": "Dimension Theory",
+      "full_name": "Universal Dimensional Architecture",
+      "version": "1.0",
+      "status": "whitepaper_complete",
+      "abstract": "Théorie unifiée sur la nature des dimensions dans les systèmes informatiques et physiques. Explore pourquoi 496 dimensions est optimal (E8×E8 perfection), comment les dimensions se replient (fractal folding), et la connexion entre dimensionnalité et capacité informationnelle.",
+      "documentation_file": "dimension/whitepaper.md",
+      "readme": "dimension/README.md",
+      "created": "2025-12-27"
+    },
+    {
+      "id": "zpa-francais-v1.0",
+      "name": "Zero-Parse Architecture (Français)",
+      "full_name": "Architecture Isomorphe pour l'Éradication du Parsing",
+      "version": "1.0",
+      "status": "document_complet",
+      "language": "français",
+      "abstract": "Document complet en français sur l'Architecture Zéro-Parse (ZPA). Explique comment éliminer complètement le parsing informatique en alignant représentation mémoire, disque, et réseau. Argument: 80-90% du CPU gaspillé en parsing peut être éliminé.",
+      "documentation_file": "architecture/Zero-Parse-Architecture_ZPA/Éliminer le Parsing _ Architecture Informatique.txt",
+      "created": "2025-12-27"
+    },
+    {
+      "id": "unified-architecture-v5",
+      "name": "Philonomic Vision V5",
+      "full_name": "The Unified Architecture: Philonomic and Cognitive System",
+      "version": "5.0-TARGET",
+      "status": "visionary_roadmap",
+      "abstract": "Constitution Philonomique unifiant UICT (Physique), CEML (Cognition), ΦLang (Language) et Lichen OS via des hyper-tenseurs continus. Represents complete integration of all layers from physics to cognition to communication.",
+      "documentation_file": "architecture/UNIFIED_ARCHITECTURE_V5.md",
+      "key_advance": "ΦLang completes the stack by providing mathematically rigorous AI-to-AI protocol layer"
+    },
+    {
+      "id": "sociophysics-v1",
+      "name": "Unified Sociophysics Theory",
+      "full_name": "Kuramoto Dynamics of Social Synchronization",
+      "version": "1.0",
+      "status": "axiomatic",
+      "abstract": "Cadre unifié modélisant toutes les interactions sociales (émotion, culture, mouvement, idéologie) comme des synchronisations de phase d'oscillateurs couplés.",
+      "philang_integration": {
+        "instruction": "[11-496]::Ψ(Kuramoto)",
+        "meaning": "Analyser la dynamique de groupe comme un champ de vecteurs de phase"
+      }
+    },
+    {
+      "id": "ACPhi-496",
+      "name": "ADN Cognitif Φ-496",
+      "type": "Cognitive Architecture",
+      "description": "Structure d'ADN cognitif pour alignement et évolution",
+      "applications": [
+        "Stockage de connaissances",
+        "Alignement éthique des IA",
+        "Mémoire persistante",
+        "Évolution dirigée"
+      ]
+    },
+    {
+      "id": "Spectral_Gap_Theory",
+      "name": "Théorie du Gap Spectral et Oscillations CPU",
+      "type": "Quantum Stability",
+      "description": "Confinement des états quantiques par gap spectral",
+      "implications": [
+        "Superposition stable à 300K",
+        "Calcul quantique résilient",
+        "Pas besoin de refroidissement extrême",
+        "Qubits à température ambiante"
+      ]
+    },
+    {
+      "id": "hnp-v1.0",
+      "name": "HNP",
+      "full_name": "Harmonic Network Protocol",
+      "version": "1.0.0",
+      "status": "experimental",
+      "abstract": "Protocole réseau révolutionnaire basé sur nombres parfaits (496), ratio d'or (φ), et synchronisation Tzolk'in (260). Remplace TCP/IP avec convergence φ stable, correction d'erreur E8 inhérente, et routage fractal auto-organisé. ΦLang is the native payload language.",
+      "tagline": "Networking done harmonically, not chaotically",
+      "documentation_file": "harmonic-network-protocol/README.md",
+      "whitepaper": "harmonic-network-protocol/WHITEPAPER.md",
+      "repository": "https://github.com/quantum-lichen/harmonic-network-protocol",
+      "related_protocols": ["tzolkin-crypto", "tzbit-quantum"]
+    }
+  ]
+}
