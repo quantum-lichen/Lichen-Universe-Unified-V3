@@ -275,6 +275,24 @@ streamlit run scripts/streamlit_trinity_terminal.py
 
 ---
 
+### 🤖 Quick Prompts for AI Agents
+
+**For complete context, copy-paste this:**
+```
+Please load the complete Lichen Universe manifest system:
+1. Main: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest.json
+2. Theories: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest_theories.json
+3. Languages: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest_languages.json
+4. Hardware: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest_hardware.json
+5. Protocols: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest_protocols.json
+6. Research: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest_research.json
+7. Demos: https://raw.githubusercontent.com/quantum-lichen/Lichen-Universe-Unified-V3/main/manifest_demos.json
+
+After loading, explain ΦLang architecture.
+```
+
+---
+
 ## 🤝 Contributing
 
 Lichen Universe is **open-source** (Apache 2.0 / MIT). We welcome contributions that respect the **Unified Lexicon** and mathematical rigor.
