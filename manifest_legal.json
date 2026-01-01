@@ -1,0 +1,278 @@
+{
+  "category": "Legal Framework & Licensing",
+  "version": "1.0.0",
+  "description": "LUEL (Lichen Universe Ethical License) - Legal weapon against monopolies, financing ecological transition through code profits",
+  
+  "license_info": {
+    "name": "LUEL-QC (Lichen Universe Ethical License - Quebec)",
+    "version": "1.0",
+    "date": "Décembre 2025",
+    "url": "https://quantum-lichen.github.io/LUEL-Standard/",
+    "repository": "https://github.com/quantum-lichen/LUEL-Standard",
+    "family": "Ethical Source (NOT OSI Open Source)",
+    "status": "Deployed and legally enforceable"
+  },
+
+  "three_pillars": {
+    "1_liberte_educative_communautaire": {
+      "description": "Utilisation gratuite et sans restriction pour projets non-commerciaux",
+      "autorise_pour": [
+        "Projets personnels et expérimentaux",
+        "Établissements d'enseignement, universités, centres recherche publics",
+        "Organisations à but non lucratif (OBNL) et ONG",
+        "Projets communautaires ne générant pas profit direct"
+      ],
+      "principe": "Éducation et recherche doivent rester libres et accessibles"
+    },
+    
+    "2_protection_anti_monopole": {
+      "description": "Interdiction stricte utilisation par monopoles technologiques centralisés",
+      "definition_gafam_plus": "Entités dont capitalisation boursière > 500 milliards USD (ex: Alphabet, Meta, Amazon, Microsoft, Apple, NVIDIA, etc.)",
+      "contagion_interdiction": {
+        "subsidiaires": "Toute entité détenue >1% par GAFAM+",
+        "prete_noms": "Sociétés écran ou intermédiaires agissant pour compte GAFAM+",
+        "dirigeants_actionnaires": "Membres conseil, dirigeants, actionnaires contrôle (>5%) des GAFAM+",
+        "financement": "Entités financées majoritairement par fonds GAFAM+ pour projet spécifique"
+      },
+      "raison": "Empêcher capture innovation par procuration - pas de loopholes",
+      "exemple_interdit": "Startup financée par Google Ventures ne peut PAS utiliser (clause 3.a)"
+    },
+    
+    "3_redistribution_philonomique": {
+      "description": "Obligation reverser 33% bénéfices nets vers infrastructure écologique locale",
+      "cible": "Province de Québec (Canada) - ancrage territorial projet Lichen",
+      "beneficiaires": [
+        "Infrastructures vertes",
+        "Préservation biodiversité",
+        "Logement social écoresponsable",
+        "Organismes reconnus",
+        "Fonds gouvernementaux transition écologique"
+      ],
+      "calcul": {
+        "base": "33% des BÉNÉFICES NETS ATTRIBUABLES (pas revenue total)",
+        "exemple": "Produit utilise moteur Lichen pour 10% valeur → 33% des profits sur ces 10%",
+        "preuve": "Don/investissement tenu à disposition auteur sur demande"
+      },
+      "viabilite_economique": {
+        "marges_typiques_tech": "SaaS 20-40%, Software 15-30%, Hardware 5-15%",
+        "apres_luel": "Entreprise garde 67% profits = encore 20%+ marge finale",
+        "comparaison_taxes": "Équivalent taxes corporatives 25-35% MAIS impact direct (pas bureaucratie)"
+      }
+    }
+  },
+
+  "philosophie_juridique": {
+    "pas_open_source": {
+      "osi_definition": "Open Source Initiative interdit discrimination (même contre acteurs malveillants)",
+      "luel_position": "Nous revendiquons DROIT de discriminer monopoles toxiques",
+      "classification": "Ethical Source (comme Hippocratic License, SSPL)",
+      "honnêteté": "Pas greenwashing - on dit clairement: 'On discrimine, c'est voulu, c'est éthique'"
+    },
+    
+    "seed_not_monopoly": {
+      "principe": "LUEL = graine pour inspirer variants, pas dominer espace licences",
+      "biodiversite_juridique": "Écosystème licences éthiques > Monoculture juridique",
+      "analogie_biologique": "Lichen (symbiose algue+champignon) = modèle pour diversité coopérative",
+      "encouragement": "Forkez LUEL, créez variants adaptés à VOS problèmes locaux"
+    },
+    
+    "variants_framework": {
+      "luel_template": "Version fill-in-the-blanks pour créer variantes",
+      "parametres_ajustables": [
+        "Géographie/juridiction (LUEL-CA, LUEL-EU, LUEL-AFRICA, etc.)",
+        "Focus écologique (énergie, biodiversité, eau, nourriture, éducation, santé, logement)",
+        "Taux redistribution (25-40% recommandé, 33% optimal)",
+        "Seuil anti-monopole (>500B$ ou ajusté selon contexte local)",
+        "Bénéficiaires spécifiques (organismes locaux vérifiés)"
+      ],
+      "criteres_certification": [
+        "✅ Interdit GAFAM+ (définition claire)",
+        "✅ Redistribution 25-40% profits",
+        "✅ Bénéficiaire ÉCOLOGIQUE/SOCIAL local",
+        "✅ Juridiction spécifique",
+        "✅ Open-source la licence elle-même (meta!)"
+      ]
+    }
+  },
+
+  "variants_proposes": {
+    "luel_food": {
+      "region": "Afrique subsaharienne",
+      "probleme": "Sécurité alimentaire, famine",
+      "beneficiaires": "Programmes agricoles locaux, banques alimentaires coopératives",
+      "impact_projete": "30M$/an by 2030 (si 150 projets adoptent)"
+    },
+    "luel_edu": {
+      "region": "Amérique Latine",
+      "probleme": "Éducation accessible",
+      "beneficiaires": "Écoles publiques, bourses d'études, bibliothèques communautaires",
+      "impact_projete": "20M$/an by 2030"
+    },
+    "luel_water": {
+      "region": "Asie du Sud-Est",
+      "probleme": "Accès eau potable",
+      "beneficiaires": "Infrastructure hydraulique, puits communautaires, filtration",
+      "impact_projete": "60M$/an by 2030 (si 300 projets adoptent)"
+    },
+    "luel_health": {
+      "region": "Zones rurales (global)",
+      "probleme": "Accès aux soins",
+      "beneficiaires": "Cliniques mobiles, télémédecine, formation personnel médical",
+      "impact_projete": "Variable selon adoption"
+    },
+    "luel_housing": {
+      "region": "Grandes villes",
+      "probleme": "Logement abordable",
+      "beneficiaires": "Coopératives d'habitation, logement social, construction écoresponsable",
+      "impact_projete": "Variable"
+    },
+    "luel_indigenous": {
+      "region": "Terres autochtones (global)",
+      "probleme": "Souveraineté culturelle, droits territoriaux",
+      "beneficiaires": "Projets menés par communautés autochtones, préservation langues/cultures",
+      "impact_projete": "Variable"
+    },
+    "luel_refugee": {
+      "region": "Zones de conflit",
+      "probleme": "Support aux réfugiés",
+      "beneficiaires": "ONG humanitaires, camps réfugiés, réinstallation",
+      "impact_projete": "Variable"
+    },
+    "luel_disability": {
+      "region": "Global",
+      "probleme": "Accessibilité universelle",
+      "beneficiaires": "Technologies d'assistance, infrastructure adaptée, formation",
+      "impact_projete": "Variable"
+    }
+  },
+
+  "juridiction": {
+    "luel_qc_specifique": {
+      "loi_applicable": "Lois de la province de Québec et lois du Canada applicables",
+      "tribunaux": "Tribunaux compétents du district judiciaire de Québec",
+      "raison": "Ancrage local projet - argent numérique finance arbres/maisons RÉELS au Québec",
+      "avantage": "Juridiction québécoise = difficile contourner pour GAFAM (vs US corporate law)"
+    },
+    "variants_autres_juridictions": {
+      "principe": "Chaque variant choisit SA juridiction (LUEL-EU → loi européenne, etc.)",
+      "flexibilite": "Adaptation aux contextes légaux locaux",
+      "coherence": "Principe anti-monopole + redistribution maintenu partout"
+    }
+  },
+
+  "enforcement": {
+    "violation_licence": {
+      "si_gafam_utilise": "Violation contrat licence = contrefaçon droit d'auteur",
+      "si_commercial_ne_paie_pas": "Violation obligation contractuelle = poursuites possibles",
+      "preuve": "Logs, audits comptables, dénonciation anonyme"
+    },
+    "jurisprudence": {
+      "sfc_v_vizio": "Tribunaux ont confirmé licences open source = contrats exécutoires",
+      "orange_case": "Violation licence = violation copyright actionable",
+      "precedent": "LUEL s'appuie sur jurisprudence établie licences logicielles"
+    },
+    "compliance": {
+      "pour_entreprises": "Tenir registre usage code LUEL, calculer bénéfices attribuables, preuves dons",
+      "audit": "Possibilité audit sur demande (comme taxes corporatives)",
+      "bonne_foi": "Système repose sur bonne foi MAIS juridiquement contraignant"
+    }
+  },
+
+  "faq": {
+    "est_ce_open_source": {
+      "q": "Est-ce de l'Open Source?",
+      "r": "Techniquement le code est ouvert ('Source Available'). Mais politiquement, non. L'Open Source interdit la discrimination. Nous revendiquons le droit de discriminer les monopoles toxiques. C'est du 'Ethical Source'."
+    },
+    "pourquoi_quebec": {
+      "q": "Pourquoi le Québec?",
+      "r": "C'est le berceau du projet Lichen. Nous croyons à l'ancrage local de la technologie. L'argent généré par le numérique doit servir à planter des arbres et loger des gens dans le monde réel, pas juste gonfler des comptes en banque offshore."
+    },
+    "calcul_33_pourcent": {
+      "q": "Comment calculez-vous les 33%?",
+      "r": "Ils sont calculés sur les 'Bénéfices Nets Attribuables'. Si votre produit utilise notre moteur pour 10% de sa valeur, vous devez 33% des profits sur ces 10%. C'est une discussion comptable standard en licensing."
+    },
+    "startup_google_ventures": {
+      "q": "Je suis une startup financée par Google Ventures, puis-je utiliser le code?",
+      "r": "Non. La clause 3.a ('participation > 1%') vous l'interdit. L'objectif est d'empêcher les GAFAM de capturer l'innovation par procuration."
+    },
+    "creer_variant": {
+      "q": "Comment créer mon propre variant LUEL?",
+      "r": "1. Fork le repo LUEL-Standard, 2. Copier LUEL-TEMPLATE-v1.0.txt, 3. Remplir avec vos paramètres (région, cause, taux, juridiction), 4. Soumettre PR au registre. C'est encouragé!"
+    }
+  },
+
+  "comparaison_autres_licences": {
+    "mit_apache": {
+      "liberte": "Totale (même GAFAM)",
+      "commercial": "Gratuit pour tous",
+      "redistribution": "❌ Aucune",
+      "probleme": "GAFAM capture valeur sans retourner"
+    },
+    "gpl": {
+      "liberte": "Si code reste open",
+      "commercial": "Oui mais doit libérer modifications",
+      "redistribution": "❌ Aucune",
+      "probleme": "Ne stoppe pas monopoles, pas redistribution écologique"
+    },
+    "sspl": {
+      "liberte": "Doit libérer stack entier si service cloud",
+      "commercial": "Compliqué",
+      "redistribution": "❌ Aucune",
+      "probleme": "Cible seulement cloud providers, pas redistribution sociale"
+    },
+    "hippocratic": {
+      "liberte": "Sauf si viole droits humains",
+      "commercial": "Oui si éthique",
+      "redistribution": "❌ Aucune",
+      "avantage": "Clause morale exécutable",
+      "limitation": "Pas de mécanisme financement transition"
+    },
+    "luel": {
+      "liberte": "❌ INTERDIT GAFAM+",
+      "commercial": "✅ Oui (33% taxe)",
+      "redistribution": "✅ Québec vert (ou variants locaux)",
+      "avantage_unique": "SEULE qui COMBAT monopole ET FINANCE écologie"
+    }
+  },
+
+  "vision_2030": {
+    "projets": "1000+ sous LUEL variants",
+    "montant_total": "200M$/an redirigés vers infrastructures sociales/écologiques",
+    "repartition": {
+      "luel_qc": "50M$/an → Forêts québécoises",
+      "luel_food": "30M$/an → Sécurité alimentaire Afrique",
+      "luel_water": "60M$/an → Eau potable Asie",
+      "autres": "60M$/an → Causes locales diverses"
+    },
+    "impact": "Transformation systémique SANS révolution - argent tech finance RÉELLEMENT transition",
+    "principe": "Real money, real trees, real impact (pas tokens, pas greenwashing)"
+  },
+
+  "resources": {
+    "site_web": "https://luel.dev (proposed - not yet live)",
+    "github": "https://github.com/quantum-lichen/LUEL-Standard",
+    "template": "/variants/LUEL-TEMPLATE-v1.0.txt",
+    "registry": "/variants/registry.md (liste variants officiels)",
+    "faq": "/FAQ.md",
+    "header": "/templates/HEADER.txt (pour ajouter à vos fichiers)"
+  },
+
+  "citations": {
+    "tagline": "Code for the People, Not the Monopolies.",
+    "on_discrimination": "Nous revendiquons le droit de discriminer les monopoles toxiques. C'est voulu, c'est éthique.",
+    "on_quebec": "L'argent généré par le numérique doit servir à planter des arbres et loger des gens dans le monde réel.",
+    "on_seed": "LUEL est une graine, pas un monopole. Forkez-la, adaptez-la, créez des variants.",
+    "on_33_percent": "33% des profits, pas du revenu. C'est raisonnable, viable, et équivalent aux taxes corporatives mais avec impact direct.",
+    "on_revolution": "Transformation systémique sans permission politique - on crée des faits accomplis juridiques."
+  },
+
+  "status": {
+    "luel_qc": "✅ v1.0 deployed, legally enforceable",
+    "luel_standard": "✅ Repository live with documentation",
+    "variants_active": "LUEL-QC only (others pending community creation)",
+    "projects_using": "Lichen OS, SynapseΩ, Trinity Terminal, all Lichen Universe projects",
+    "legal_opinions": "⏳ Pending (Quebec jurisdiction legal review in progress)"
+  },
+
+  "license": "LUEL-QC-v1.0 (meta-licensed - the license describing itself)"
+}

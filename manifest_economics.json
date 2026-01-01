@@ -1,0 +1,247 @@
+{
+  "category": "Post-Monopole Economics & Licensing",
+  "version": "1.0.0",
+  "description": "Economic aikido - using capitalism's mechanisms against monopolies to finance ecological transition",
+  
+  "core_framework": {
+    "name": "Capitalisme Subversif",
+    "subtitle": "Stratégies de Réappropriation des Mécanismes de Marché pour le Bien Commun",
+    "principle": "Utiliser la force de l'adversaire (liquidité, structure légale, désir profit) contre lui-même",
+    "approach": "Aikido économique - pas révolution destructrice, mais détournement systémique",
+    "goal": "Économie post-corporatiste sans demander permission politique"
+  },
+
+  "seven_weapons": {
+    "1_steward_ownership": {
+      "type": "Bouclier (Protection)",
+      "description": "Reconfiguration ADN juridique entreprise - contrôle ≠ propriété",
+      "principles": [
+        "Autodétermination: Contrôle reste avec personnes impliquées mission (pas vendable)",
+        "Profit as Means: Bénéfices réinvestis ou mission sociale (pas extraction actionnaires)"
+      ],
+      "exemples": {
+        "patagonia": {
+          "structure": "Patagonia Purpose Trust (2% capital, 100% votes) + Holdfast Collective 501(c)(4) (98% capital, 0% votes)",
+          "valeur": "3B$ évaluation",
+          "impact": "100M$/an → Lobbying climatique",
+          "innovation": "Weaponized capitalism - profits financent lutte contre cause profits",
+          "impossibilite": "Jamais rachetable par fonds spéculatif (verrouillage perpétuel)"
+        },
+        "bosch_zeiss": {
+          "histoire": "100+ ans survie (Bosch, Zeiss, Carlsberg)",
+          "resilience": "6x supérieure vs corporations classiques",
+          "raison": "Impossibles à saigner par actionnaires exigeant dividendes crises"
+        }
+      },
+      "mechanisms": {
+        "golden_share_nl": "Pays-Bas - fondation détient 1 action avec droit veto modifications statuts",
+        "perpetual_purpose_trust": "USA - trust avec mandat légal unique: protéger mission",
+        "501c4_hack": "Peut lobbying politique illimité (vs 501c3 restricted)"
+      }
+    },
+    
+    "2_vampire_attack": {
+      "type": "Épée (Offensive)",
+      "description": "Clone tech + meilleures incitations → Siphonne liquidité (travailleurs/actifs)",
+      "origin": "DeFi (SushiSwap vs Uniswap - 1B$ liquidité migrée en jours)",
+      "transposition_economie_reelle": "Liquidité = force travail (chauffeurs, livreurs) + actifs (appartements)",
+      "exemples": {
+        "drivers_cooperative_nyc": {
+          "target": "Uber/Lyft duopole",
+          "strategy": [
+            "Commission 15% vs 30% Uber (chauffeurs gagnent plus)",
+            "Propriété coopérative (profits redistribués aux chauffeurs)",
+            "Garanties sociales (30$/h minimum para-médical)"
+          ],
+          "results": "6.1M$ revenue 2022 (↑1200%)",
+          "critique": "Ciblé d'abord NEMT (transport médical) - segment où fiabilité > disponibilité instantanée",
+          "defi": "Masse critique vs milliards Uber pour subventionner trajets"
+        },
+        "fairbnb": {
+          "target": "Airbnb",
+          "strategy": [
+            "50% commission → Projets sociaux communauté locale",
+            "Règle '1 hôte, 1 maison' (bloque investisseurs institutionnels)",
+            "Alliance municipalités (Venise, Barcelone, Amsterdam)"
+          ],
+          "avantage": "Capture réglementaire positive - loi locale exclut concurrent extractif"
+        },
+        "drivers_seat_coop": {
+          "innovation": "Souveraineté données - chauffeurs collectent/mutualisent leurs propres données",
+          "weapons": [
+            "Vendre insights mobilité aux villes (dividendes données)",
+            "Révéler algorithme Uber (preuves sous-tarification pour négociations/justice)"
+          ],
+          "principle": "Big Data PAR les travailleurs CONTRE patrons algorithmiques"
+        }
+      }
+    },
+    
+    "3_short_selling_ethique": {
+      "type": "Détecteur de Mensonges",
+      "description": "Paris sur baisse action + rapport exposant fraude/malveillance = punition financière mensonge",
+      "exemples": {
+        "wirecard": "Short sellers exposent fraude massive (BaFin régulateurs allemands avaient raté)",
+        "adani_group": "Hindenburg Research force débat gouvernance Inde",
+        "greenwashing": "Paris contre entreprises mentant sur engagements ESG"
+      },
+      "mechanism": "Profit financier (short gains) + Utilité publique (truth exposure)",
+      "principe": "Marché punit fraude SI quelqu'un a intérêt financier à l'exposer"
+    },
+    
+    "4_activisme_actionnarial": {
+      "type": "Cheval de Troie",
+      "description": "Minorité intelligente détourne direction via vote actionnaires",
+      "exemple": {
+        "engine_no_1_vs_exxon": {
+          "participation": "0.02% actions seulement",
+          "strategy": "Convaincre BlackRock/Vanguard voter pour experts renouvelables",
+          "result": "3 board members remplacés",
+          "lecon": "Minorité intelligente + argument économique solide = détournement supermajor"
+        }
+      }
+    },
+    
+    "5_licences_ethiques": {
+      "type": "Code comme Loi",
+      "description": "Restrictions d'usage logiciel basées sur éthique, exécutables juridiquement",
+      "hippocratic_license": {
+        "principle": "Libre usage SAUF si viole droits humains (ONU) ou détruit environnement",
+        "enforcement": "Violation = contrefaçon copyright (juridiquement exécutable)",
+        "controversy": "OSI rejette (Field of Use Restrictions) mais nécessaire pour responsabilité politique"
+      },
+      "luel": {
+        "evolution": "Extension Hippocratic License avec redistribution économique locale",
+        "voir": "manifest_legal.json pour détails complets"
+      }
+    },
+    
+    "6_sabotage_culturel": {
+      "type": "Art Performatif",
+      "description": "Critiquer système TOUT EN profitant de lui = autofinancement résistance",
+      "mschf_collective": {
+        "atm_leaderboard": "Affiche solde bancaire publiquement - millionnaires prouvent richesse pour être moqués - vendu 75K$",
+        "eat_the_rich_popsicles": "Glaces effigie Bezos/Musk 10$ - critique littérale consommation",
+        "key4all": "5000 clés pour 1 voiture - propriété partagée chaotique",
+        "paradoxe": "Profiter du système critiqué = durable (pas dépendant subventions)",
+        "principe": "Virus culturel utilisant vecteurs mode/luxe pour infecter esprits idées subversives"
+      }
+    },
+    
+    "7_gamification_resistance": {
+      "type": "Jeu Militant",
+      "description": "Transformer acte achat impulsif en acte militant gratifiant",
+      "buycott_app": {
+        "function": "Scan barcode → Arbre généalogique corporate → Suggère alternative si boycott",
+        "gamification": "Points achats éthiques, teams boycott, objectifs collectifs",
+        "result": "Consommation devient militantisme ludique"
+      }
+    }
+  },
+
+  "luel_licensing": {
+    "name": "Lichen Universe Ethical License",
+    "version": "LUEL-QC-v1.0",
+    "url": "https://quantum-lichen.github.io/LUEL-Standard/",
+    "tagline": "Code for the People, Not the Monopolies",
+    "pillars": {
+      "1_liberte_educative": "Gratuit pour recherche, éducation, projets personnels, ONG",
+      "2_protection_anti_monopole": "Interdit GAFAM+ (>500B$ cap) ET subsidiaires (>1% ownership) ET dirigeants/actionnaires (>5%) ET financés majoritairement par GAFAM",
+      "3_redistribution_locale": "33% profits → Infrastructures vertes Québec (biodiversité, logement social écoresponsable)"
+    },
+    "philosophy": {
+      "seed_not_monopoly": "LUEL = graine pour inspirer variants, pas dominer espace licences",
+      "biodiversity_juridique": "Encourage LUEL-FOOD, LUEL-EDU, LUEL-WATER, etc. - chacun adapté contexte local",
+      "variants_proposed": [
+        "LUEL-FOOD (Afrique subsaharienne - sécurité alimentaire)",
+        "LUEL-EDU (Amérique Latine - éducation accessible)",
+        "LUEL-WATER (Asie Sud-Est - eau potable)",
+        "LUEL-HEALTH (Zones rurales - accès soins)",
+        "LUEL-HOUSING (Grandes villes - logement abordable)",
+        "LUEL-INDIGENOUS (Terres autochtones - souveraineté culturelle)",
+        "LUEL-REFUGEE (Zones conflit - support réfugiés)",
+        "LUEL-DISABILITY (Global - accessibilité)"
+      ]
+    },
+    "economic_viability": {
+      "33_pourcent_profits_not_revenue": {
+        "example": {
+          "revenue": "10M$",
+          "costs": "7M$",
+          "profit": "3M$ (30% margin)",
+          "luel_tax": "1M$ (33% of 3M$) → Infrastructure locale",
+          "company_keeps": "2M$ (still 20% margin!)"
+        },
+        "comparison": "Équivalent taxes corporatives (25-35%) MAIS impact direct mesurable (pas bureaucratie)",
+        "marges_tech_typiques": "SaaS 20-40%, Software 15-30% → LUEL viable"
+      },
+      "ancrage_local": "Argent numérique RETOURNE monde physique (arbres, maisons) vs paradis fiscaux offshore"
+    },
+    "status": {
+      "deployed": "✅ https://quantum-lichen.github.io/LUEL-Standard/",
+      "projects_using": "Lichen OS, SynapseΩ, Trinity Terminal, etc.",
+      "variants_active": "LUEL-QC v1.0 (template pour autres à venir)",
+      "legal_status": "Source Available, Ethical Source family, NOT OSI Open Source (intentional)"
+    }
+  },
+
+  "economic_theory": {
+    "problem_actuel": {
+      "shareholder_primacy": "Maximisation profits court terme au détriment mission/employés/environnement",
+      "extraction": "Code Open Source MIT/Apache → GAFAM intègre gratuitement → Milliards profits → Paradis fiscaux → Communauté voit rien",
+      "exemples": [
+        "Redis → AWS ElastiCache (Redis Labs forcé changer licence)",
+        "MongoDB → DocumentDB (Amazon clone)",
+        "Elasticsearch → AWS OpenSearch (fork hostile)"
+      ]
+    },
+    "solution_lichen": {
+      "inversion_flux": "Code LUEL → Startup/PME utilise → Génère profits → 33% retourne communauté locale → Infrastructure construite → Communauté renforce → Nouveau cycle vertueux",
+      "pas_anti_business": "Anti-extraction, pas anti-corporations. Business légitime, mais extraction sans retour = problème",
+      "equilibre": [
+        "Petites entreprises: Gratuit R&D, peuvent commercialiser, gardent 67% profits",
+        "GAFAM+: Interdits (ont ressources développer propres solutions)",
+        "Résultat: Innovation récompensée MAIS succès nourrit société"
+      ]
+    }
+  },
+
+  "vision_2030": {
+    "projection": {
+      "1000_plus_projets": "Sous diverses variantes LUEL",
+      "200_projets_luel_qc": "50M$/an → Forêts québécoises",
+      "150_projets_luel_food": "30M$/an → Sécurité alimentaire Afrique",
+      "300_projets_luel_water": "60M$/an → Eau potable Asie",
+      "350_projets_autres": "40M$/an → Causes locales diverses",
+      "total": "200M$/an redirigés profits tech vers infrastructure sociale RÉELLE"
+    },
+    "combine_avec": [
+      "50+ conversions Steward-Ownership",
+      "20+ Vampire Attacks réussies (Uber/Airbnb tombent)",
+      "10+ Short campaigns exposent greenwashing",
+      "Millions users Buycott (boycotts coordonnés)"
+    ],
+    "resultat": "Transformation systémique SANS révolution sanglante"
+  },
+
+  "citations": {
+    "on_aikido": "Utiliser le capitalisme contre les corporations ne signifie pas rejeter les outils du marché, mais les maîtriser mieux que l'adversaire.",
+    "on_pragmatism": "Le capitalisme subversif est intelligent car pragmatique: il ne demande pas permission politique pour agir, il utilise droit privé et technologie pour créer faits accomplis.",
+    "on_luel_philosophy": "Le code devrait construire des ponts et planter des arbres, pas remplir des comptes bancaires dans des paradis fiscaux.",
+    "on_biodiversity": "LUEL = graine. Forêt pousse par diversité, pas domination d'une espèce.",
+    "on_33_percent": "33% des PROFITS (pas revenue) = raisonnable et viable. Les marges tech sont 20-40%. Après LUEL, entreprise garde encore 20%+ marge."
+  },
+
+  "sources": {
+    "steward_ownership": "Purpose Economy, Corporate Rebels, Harvard ALI Social Impact Review",
+    "vampire_attacks": "a16z crypto, Gemini Cryptopedia, DeFi case studies",
+    "drivers_cooperative": "Wefunder, The Workers Lab, YouTube documentaries",
+    "fairbnb": "The Guardian, Taylor & Francis studies",
+    "short_selling_ethics": "SSE Riga, Schroders research",
+    "mschf": "The Art Newspaper, Dezeen, Hyperallergic",
+    "total_sources": "58 academic and industry sources"
+  },
+
+  "status": "Manifesto complete (263 lines, 58 sources), LUEL deployed and enforceable",
+  "license": "LUEL-QC-v1.0 (meta-licensed)"
+}
