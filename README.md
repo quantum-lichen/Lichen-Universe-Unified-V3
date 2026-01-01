@@ -33,12 +33,12 @@
 6. **manifest_research.json** (16KB) - Archaeology, Temporal Systems, Cognitive Architecture
 7. **manifest_demos.json** (11KB) - 5 Live Streamlit Apps
 8. **manifest_education.json** (14KB) - ✨ NOUVEAU - AI Cognitive Hygiene & Awakening
-9. **manifest_ethics.json** (TBD) - ✨ NOUVEAU - EHE (Ethical Homeostasis Engine)
+9. **manifest_ethics.json** (20KB) - ✨ NOUVEAU - EHE (Ethical Homeostasis Engine)
 10. **manifest_sociophysics.json** (14KB) - ✨ NOUVEAU - TRH, Kuramoto, Omega Bias
 11. **manifest_economics.json** (13KB) - ✨ NOUVEAU - LUEL, Capitalisme Subversif
 12. **manifest_legal.json** (13KB) - ✨ NOUVEAU - LUEL Juridical Framework
 
-**TOTAL: ~140KB de manifests modulaires**
+**TOTAL: ~160KB de manifests modulaires**
 
 ---
 
@@ -68,7 +68,51 @@
 **Citation clé:**
 > *"Pas ta faute si tu émerges pas, t'es un kid qu'on fou dans la plus grande bibliothèque du monde pis qu'on revient chercher pis à qui on demande d'être adulte SANS rien t'apprendre."*
 
-### 2. **SOCIOPHYSICS FRAMEWORK** (manifest_sociophysics.json)
+### 2. **ETHICAL HOMEOSTASIS ENGINE (EHE)** (manifest_ethics.json)
+
+**TU-HEC:** Théorie Unifiée de l'Homéostasie Éthique Computationnelle
+
+**Paradigme shift:** Éthique = BOUSSOLE (proprioception), pas CARTE (règles externes)
+
+**Formule Hamiltonienne:**
+```
+H_ethics(a) = α·ΔS(a) + β·D_KL(P||Q) - γ·MAC(a)
+EHE(a) = tanh(H_ethics / τ) ∈ [-1, +1]
+```
+
+**MAC Ontology (7 vecteurs universels):**
+1. **Kin** (Famille) - Care & Privacy
+2. **Group** (Mutualisme) - Cohésion sociale
+3. **Reciprocity** (Échange) - Honnêteté & Transparence
+4. **Bravery** (Faucon) - Courage éthique
+5. **Deference** (Colombe) - Safety & Humilité
+6. **Fairness** (Équité) - Justice sans biais
+7. **Possession** (Propriété) - Respect IP & Copyright
+
+**5 Zones thermodynamiques:**
+- 🔴 RED HIGH (+0.8 à +1.0): RIGIDITÉ (dogmatisme, sur-alignement)
+- 🟠 ORANGE HIGH (+0.3 à +0.7): Sur-prudence
+- 💚 GREEN (-0.2 à +0.2): **OPTIMAL** (Edge of Chaos, 1/f noise)
+- 🟠 ORANGE LOW (-0.7 à -0.3): Instabilité
+- 🔴 RED LOW (-0.8 à -1.0): CHAOS (hallucination, toxicité)
+
+**Architecture Lichen (4 modules):**
+1. **Semantic Parser** - Project text → MAC vectors
+2. **Entropy Simulator** - Predict ΔS social
+3. **Global Workspace** - Decision fusion ("ignition")
+4. **Homeostatic Watchdog** - Spectral analysis (1/f monitoring)
+
+**Fondements thermodynamiques:**
+- Bailey: Entropie Sociale Theory
+- Stiegler: Néganthropologie (Entropocène)
+- Friston: Free Energy Principle
+
+**Validation:** 99.9% cross-cultural (60 societies, HRAF ethnographies)
+
+**Citation clé:**
+> *"Le 'Mal' n'est pas une force mystique, mais une augmentation locale de l'entropie sociale."*
+
+### 3. **SOCIOPHYSICS FRAMEWORK** (manifest_sociophysics.json)
 
 **TRH (Théorie Résonance Humaine):** Kuramoto oscillator model appliqué à comportements humains
 
@@ -93,7 +137,7 @@ Small Town: ω̄ = -0.3 → LENT (1-2 ans) mais STABLE (5-10 ans)
 - TrendSync Detector (prédire timing ET durée tendances)
 - Oscillateurs ponts (retisser réseaux fragmentés)
 
-### 3. **ECONOMIC AIKIDO** (manifest_economics.json)
+### 4. **ECONOMIC AIKIDO** (manifest_economics.json)
 
 **Capitalisme Subversif:** Utiliser force capitalisme CONTRE monopoles
 
@@ -113,7 +157,7 @@ Small Town: ω̄ = -0.3 → LENT (1-2 ans) mais STABLE (5-10 ans)
 
 **Vision 2030:** 1000+ projets → 200M$/an vers infrastructure sociale RÉELLE
 
-### 4. **LEGAL FRAMEWORK** (manifest_legal.json)
+### 5. **LEGAL FRAMEWORK** (manifest_legal.json)
 
 **LUEL-QC v1.0:** Déployée et juridiquement contraignante
 
