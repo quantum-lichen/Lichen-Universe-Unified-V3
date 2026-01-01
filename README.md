@@ -17,8 +17,6 @@
 
 > **"We're gonna take over the world... ETHICALLY!"** - Bryan Ouellette, Cortex Éthique 💚
 
-</div>
-
 ---
 
 ## 📦 CE QUI EST INCLUS
@@ -388,3 +386,5 @@ for sub in main["_AI_LOADER_INSTRUCTIONS"]["required_manifests"]:
 **Maturity:** Foundational documents complete, implementation in progress  
 
 🌀 **The revolution will be symbiotic.** 💚
+
+</div>
