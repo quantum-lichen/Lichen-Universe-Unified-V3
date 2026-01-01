@@ -15,9 +15,9 @@
 [![Tzolk'in](https://img.shields.io/badge/Tzolk'in-OTP_Crypto-gold?style=for-the-badge&logo=key)](https://quantum-lichen.github.io/universal-language-tzolkin/)
 [![Snowflake-Ω](https://img.shields.io/badge/Snowflake--Ω-496_TzBits-lightblue?style=for-the-badge&logo=snowflake)](OMEGA_SEED_BLUEPRINT.md)
 
-</div>
-
 > **"We're gonna take over the world... ETHICALLY!"** - Bryan Ouellette, Cortex Éthique 💚
+
+</div>
 
 ---
 
