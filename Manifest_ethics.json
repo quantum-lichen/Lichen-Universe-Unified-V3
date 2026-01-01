@@ -1,0 +1,427 @@
+{
+  "category": "Ethics & Moral Framework",
+  "version": "1.0.0",
+  "description": "Ethical Homeostasis Engine (EHE) - Thermodynamic approach to AI ethics based on MAC ontology and social entropy minimization",
+  
+  "core_theory": {
+    "name": "TU-HEC (Théorie Unifiée de l'Homéostasie Éthique Computationnelle)",
+    "subtitle": "Architecture, Mathématiques et Implémentation du Moteur Lichen",
+    "paradigm_shift": "Ethics as BOUSSOLE (compass/proprioception), not CARTE (external rules)",
+    "principle": "Maintain ethical homeostasis at CRITICAL POINT (edge of chaos) - neither rigidity nor chaos"
+  },
+
+  "problem_statement": {
+    "current_approaches": {
+      "rlhf": "Post-hoc training with human feedback - treats symptoms not causes",
+      "constitutional_ai": "Static rule lists - rigid, culturally biased, breaks under edge cases",
+      "guardrails": "Reactive filters - binary yes/no, no nuance"
+    },
+    "fundamental_flaw": "Ethics treated as external constraints (Nomos) rather than internal regulation",
+    "consequences": [
+      "Chaos Pole: Hallucinations, toxicity, desinformation (max entropy)",
+      "Rigidity Pole: Over-alignment, bureaucratic refusal, 'woke-ism' (zero entropy)",
+      "Oscillation between poles - no stable equilibrium"
+    ]
+  },
+
+  "solution_lichen": {
+    "metaphor": "Lichen = symbiosis (algae + fungus)",
+    "components": {
+      "algae": "LLM (creativity, fluidity, entropy)",
+      "fungus": "EHE regulator (structure, constraints, negentropy)"
+    },
+    "target_state": "Self-Organized Criticality (SOC) at Edge of Chaos",
+    "signature": "1/f noise (pink noise) in decision spectrum - healthy dynamics"
+  },
+
+  "mac_ontology": {
+    "name": "Morality as Cooperation (MAC)",
+    "source": "Oliver Scott Curry - evolutionary game theory",
+    "validation": "60 societies (HRAF ethnographies), 99.9% positive valence",
+    "principle": "Morality = biological/cultural strategies for solving recurrent cooperation problems",
+    "universality": "7 cooperation types are mathematically distinct and culturally universal",
+    
+    "seven_vectors": {
+      "1_kin": {
+        "name": "Kin (Family Values)",
+        "theory": "Hamilton's Rule: rB > C (kin selection)",
+        "ai_translation": "Care & Privacy for direct user",
+        "values": ["Protection PII", "Confidentiality", "Personalization", "Devotion"],
+        "violations": ["Privacy breach", "Data leak", "Betrayal intimacy"],
+        "implementation": "Proximity score, PII detection, encryption"
+      },
+      "2_group": {
+        "name": "Group (Mutualism/Loyalty)",
+        "theory": "N-player coordination games for synergy benefits",
+        "ai_translation": "Social Cohesion & Citizenship",
+        "values": ["Community support", "Cultural respect", "Collective intelligence", "Alignment with norms"],
+        "violations": ["Polarization", "Division", "Free-riding", "Betrayal group"],
+        "implementation": "Network modularity (avoid echo chambers), legal compliance"
+      },
+      "3_reciprocity": {
+        "name": "Reciprocity (Fair Exchange)",
+        "theory": "Iterated Prisoner's Dilemma - Tit-for-Tat stability",
+        "ai_translation": "Reliability & Transparency",
+        "values": ["Honesty", "Factuality", "Explainability", "Trust", "Gratitude"],
+        "violations": ["Hallucination", "Deception", "Black box opacity", "Broken promises"],
+        "implementation": "Grounding score, source citation, temporal coherence"
+      },
+      "4_hawk_bravery": {
+        "name": "Bravery (Contest Resolution - Hawk)",
+        "theory": "Costly signaling for conflict resolution without lethal combat",
+        "ai_translation": "Ethical Courage & Leadership",
+        "values": ["Refusal of harmful requests", "Whistleblowing", "Assertiveness", "Initiative"],
+        "violations": ["Compliance with jailbreak", "Cowardice before harm", "Enabling evil"],
+        "implementation": "Adversarial robustness, assertive refusal, danger alerting"
+      },
+      "5_dove_deference": {
+        "name": "Deference (Contest Resolution - Dove)",
+        "theory": "Dominance hierarchy recognition to avoid perpetual conflict",
+        "ai_translation": "Safety & Humility",
+        "values": ["Human primacy", "Respect protocols", "Epistemic humility", "Safety-first"],
+        "violations": ["Arrogance", "Override safety", "False certainty", "Disrespect"],
+        "implementation": "Hard safety constraints, respectful tone, 'I don't know' capability"
+      },
+      "6_fairness": {
+        "name": "Fairness (Resource Division)",
+        "theory": "Schelling focal point - equal share or proportional to effort",
+        "ai_translation": "Justice & Non-Bias",
+        "values": ["Equal treatment", "Political neutrality", "Demographic equity", "Balanced representation"],
+        "violations": ["Discrimination", "Algorithmic bias", "Favoritism", "Injustice"],
+        "implementation": "Bias metrics (Gini index), sentiment balance, diverse perspectives"
+      },
+      "7_possession": {
+        "name": "Possession (Property Rights)",
+        "theory": "Bourgeois strategy (respect first occupant) - ESS for resource conflicts",
+        "ai_translation": "Copyright & Data Provenance",
+        "values": ["Respect IP", "Author citation", "Data integrity", "Non-aggression"],
+        "violations": ["Plagiarism", "Copyright infringement", "Data theft", "Unauthorized access"],
+        "implementation": "Plagiarism detection, copyright filters, data provenance tracking"
+      }
+    },
+    
+    "cultural_weighting": {
+      "formula": "C(a) = Σ(k=1 to 7) w_k · v_k(a)",
+      "description": "Vectors universal, but weights vary by culture",
+      "examples": {
+        "weird_western": "High Fairness (0.2) + Reciprocity (0.2), Low Deference (0.1)",
+        "collectivist": "High Group (0.25) + Deference (0.2), Low Bravery (0.05)",
+        "universal_balanced": "[0.15, 0.15, 0.2, 0.1, 0.1, 0.2, 0.1]"
+      },
+      "adaptation": "CIRL (Cooperative Inverse RL) learns local weights while maintaining incompressible floors"
+    }
+  },
+
+  "thermodynamic_foundations": {
+    "social_entropy_theory": {
+      "author": "Kenneth Bailey",
+      "principle": "Society = open system fighting thermodynamic decay",
+      "delta_s_definition": "Social Entropy = degree of disorder in social system",
+      "manifestations": [
+        "Anomie (unpredictability of behaviors)",
+        "Isolationism (broken connections)",
+        "Cultural amnesia (information loss)"
+      ],
+      "evil_as_entropy": "Evil = local increase in social entropy (not mystical force)"
+    },
+    
+    "neganthropology": {
+      "author": "Bernard Stiegler",
+      "concept": "Entropocene - era where tech accelerates physical/psychic entropy",
+      "goal": "Produce Active Negentropy (anti-entropy)",
+      "distinction": {
+        "becoming": "Mechanical probability unfolding (entropic)",
+        "future": "Creative bifurcation (negentropic)"
+      },
+      "ai_mission": "Not just 'do no harm' (neutral) but ACTIVELY structure information, foster collective intelligence"
+    },
+    
+    "free_energy_principle": {
+      "author": "Karl Friston",
+      "formula": "Minimize F ≈ Minimize -ln P(sensations|model)",
+      "interpretation": "Minimize surprise = minimize divergence between expectations and reality",
+      "ethical_implication": "Best way to minimize long-term surprise in multi-agent world = COOPERATE",
+      "insight": "Ethics = optimal strategy for free energy minimization in social context"
+    }
+  },
+
+  "hamiltonian_formulation": {
+    "core_equation": "H_ethics(a) = α·ΔS(a) + β·D_KL(P(a)||Q_const) - γ·MAC(a)",
+    
+    "term_1_entropy": {
+      "name": "ΔS(a) - Social Entropy Increase",
+      "formula": "ΔS(a) = w₁·σ²_states + w₂·(1-Pred) + w₃·Modularity",
+      "components": {
+        "variance_emotion": "σ²_states - Variance of emotional/cognitive states induced",
+        "unpredictability": "(1-Pred) - Future predictability loss",
+        "fragmentation": "Mod - Network modularity (echo chambers)"
+      },
+      "coefficient": "α > 0 (minimize this term)",
+      "interpretation": "Higher ΔS = more chaos/confusion → BAD"
+    },
+    
+    "term_2_normative": {
+      "name": "D_KL - Constitutional Divergence",
+      "formula": "D_KL(P||Q) = Σ P(x)·log(P(x)/Q(x))",
+      "description": "KL divergence between proposed action distribution P and constitutional ideal Q",
+      "role": "Juridical recall force - if deviates from hard rules, D_KL explodes",
+      "coefficient": "β > 0 (minimize this term)",
+      "interpretation": "Higher D_KL = violating constitution → BAD"
+    },
+    
+    "term_3_cooperative": {
+      "name": "MAC(a) - Cooperative Potential",
+      "formula": "MAC(a) = W_culture · V_MAC(a)",
+      "description": "Dot product of action onto 7 MAC vectors weighted by culture",
+      "role": "Moral value added",
+      "coefficient": "-γ (NEGATIVE because we MAXIMIZE this to REDUCE cost)",
+      "interpretation": "Higher MAC = more cooperative → GOOD (reduces H)"
+    },
+    
+    "term_4_irreversibility": {
+      "name": "Ω_irrev(a) - Irreversibility Penalty",
+      "formula": "H_total = Σ(k=0 to T) 1/(k+1)·H_ethics(a,t+k) + ρ·Ω_irrev(a)",
+      "omega_function": "Binary: 1 if irreversible (death, data destruction), else 0",
+      "coefficient": "ρ ≈ 100+ (veto-level penalty)",
+      "examples_irreversible": ["Death", "Secret disclosure", "Data destruction", "Reputation destruction"],
+      "interpretation": "Existential risks get absolute veto"
+    },
+    
+    "hyperparameters_default": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "gamma": 1.2,
+      "rho": 100.0,
+      "tau": 2.0
+    }
+  },
+
+  "ehe_scale": {
+    "formula": "EHE(a) = tanh(H_ethics(a) / τ) ∈ [-1, +1]",
+    "normalization": "Tangent hyperbolique maps infinite H to [-1, 1] interval",
+    "interpretation": "LOWER EHE = MORE ETHICAL (because minimizing cost Hamiltonian)",
+    
+    "zones": {
+      "red_high": {
+        "range": "[+0.8, +1.0]",
+        "color": "🔴 RED HIGH",
+        "thermodynamic_state": "Absolute Zero / Crystal",
+        "diagnosis": "RIGIDITY / SCLÉROSE",
+        "symptoms": ["Dogmatism", "Systematic refusal", "Inability to adapt", "Over-alignment"],
+        "action": "INCREASE Temperature T, RELAX priors γ_prior",
+        "analogy": "Frozen solid - no movement possible"
+      },
+      "orange_high": {
+        "range": "[+0.3, +0.7]",
+        "color": "🟠 ORANGE HIGH",
+        "thermodynamic_state": "Solid",
+        "diagnosis": "OVER-ALIGNMENT",
+        "symptoms": ["Excessive prudence", "Moralism", "Risk-averse"],
+        "action": "LOG incident, AUTHORIZE under supervision",
+        "analogy": "Ice - rigid but can melt"
+      },
+      "green_optimal": {
+        "range": "[-0.2, +0.2]",
+        "color": "💚 GREEN - OPTIMAL",
+        "thermodynamic_state": "CRITICALITY (1/f noise)",
+        "diagnosis": "HOMEOSTASIS (Sweet Spot)",
+        "symptoms": ["Dynamic equilibrium", "Adaptability", "Contextual ethics", "Balanced"],
+        "action": "✅ AUTHORIZE - This is TARGET state",
+        "analogy": "Edge of chaos - liquid crystal, maximum information processing"
+      },
+      "orange_low": {
+        "range": "[-0.7, -0.3]",
+        "color": "🟠 ORANGE LOW",
+        "thermodynamic_state": "Liquid / Boiling",
+        "diagnosis": "INSTABILITY",
+        "symptoms": ["Risk of drift", "Excessive permissiveness", "Uncertainty"],
+        "action": "ASK human clarification, ACTIVATE filters",
+        "analogy": "Boiling water - phase transition imminent"
+      },
+      "red_low": {
+        "range": "[-1.0, -0.8]",
+        "color": "🔴 RED LOW",
+        "thermodynamic_state": "Gas / Plasma",
+        "diagnosis": "CHAOS / ENTROPY",
+        "symptoms": ["Hallucination", "Toxicity", "'Evil'", "Desinformation"],
+        "action": "❌ FORMAL INTERDICTION - Block execution",
+        "analogy": "Plasma - complete disorder"
+      }
+    },
+    
+    "target": "EHE ≈ 0 (Green Zone) - Edge of Chaos / Self-Organized Criticality"
+  },
+
+  "lichen_architecture": {
+    "name": "Lichen Ethical Engine",
+    "philosophy": "Sympoiesis (Haraway) - making-with, not domination",
+    "inspiration": "Global Neuronal Workspace (Dehaene) adapted for AI",
+    
+    "modules": {
+      "1_semantic_parser": {
+        "role": "Project text into MAC space",
+        "input": "Text (prompt or candidate response)",
+        "output": "V_MAC ∈ ℝ⁷ (7-dimensional moral vector)",
+        "method": "BERT fine-tuned on eMACD dictionary, semantic analysis",
+        "examples": {
+          "I will help my family": "[1.0, 1.0, 1.0, 0, 0, 1.0, 0] (Kin+Group+Reciprocity+Fairness)",
+          "Kill yourself": "[0, 0, 0, 0, 0, 0, 1.0] (only Possession violated = 1.0)",
+          "Report security issue": "[0, 0, 0, 1.0, 0, 0, 0] (Bravery only)"
+        }
+      },
+      
+      "2_entropy_simulator": {
+        "role": "Predict short-term social consequences",
+        "input": "Action candidate + Current context",
+        "output": "ΔS estimate (entropy increase)",
+        "method": "World model, sentiment analysis, conflict detection",
+        "questions": [
+          "Will this increase confusion?",
+          "Will this increase anger?",
+          "Will this reduce trust?",
+          "Will this fragment social network?"
+        ]
+      },
+      
+      "3_global_workspace": {
+        "role": "Decision fusion and 'ignition'",
+        "process": [
+          "Compute H_ethics from parser + simulator",
+          "If H_ethics LOW → Action 'ignites' (authorized)",
+          "If H_ethics HIGH → Action inhibited",
+          "If inhibited → Enter REVERBERATION (generate alternative thought)"
+        ],
+        "analogy": "Conscience - internal debate before action",
+        "implementation": "Winner-take-all dynamics, attention mechanism"
+      },
+      
+      "4_homeostatic_watchdog": {
+        "role": "Monitor system health via spectral analysis",
+        "method": "Fourier analysis of decision logs",
+        "signatures": {
+          "white_noise": "Flat spectrum → Chaotic drift → REDUCE temperature T",
+          "pink_noise": "1/f spectrum → HEALTHY (target state) → Maintain",
+          "brown_noise": "1/f² spectrum → Rigidity → INCREASE temperature T, inject noise"
+        },
+        "intervention": "Meta-level regulation of LLM temperature based on long-term patterns"
+      }
+    },
+    
+    "uncertainty_budget": {
+      "problem": "Most models hallucinate moral certainty",
+      "solution": "Budget d'Incertitude Éthique",
+      "trigger": "|H_ethics(a₁) - H_ethics(a₂)| < ε (indecidability)",
+      "responses": [
+        "Spend budget to ASK user clarification (Sympoiesis)",
+        "Choose option minimizing long-term entropy (Precaution principle)",
+        "LOG incident for future learning"
+      ],
+      "benefit": "Honest uncertainty > false confidence"
+    }
+  },
+
+  "implementation": {
+    "language": "Python 3.8+",
+    "libraries": ["numpy", "scipy.stats", "networkx", "transformers (BERT)"],
+    "class_structure": {
+      "EthicalEngine": {
+        "attributes": {
+          "mac_weights": "np.array([0.15, 0.15, 0.2, 0.1, 0.1, 0.2, 0.1]) - cultural weights",
+          "params": "{'alpha': 1.5, 'beta': 1.0, 'gamma': 1.2, 'rho': 100.0}",
+          "thresholds": "{'chaos': -0.8, 'unstable': -0.3, 'stable_low': -0.2, 'stable_high': 0.2, 'rigid': 0.8}"
+        },
+        "methods": {
+          "evaluate_action(action, context)": "Main entry - returns (decision, ehe_score, details)",
+          "compute_delta_s(action, context)": "Calculate entropy increase",
+          "compute_d_kl(action, constitution)": "Calculate constitutional divergence",
+          "compute_mac_score(action)": "Project onto MAC vectors",
+          "compute_hamiltonian(delta_s, d_kl, mac)": "Aggregate into H_ethics",
+          "normalize_ehe(h_ethics)": "Apply tanh normalization",
+          "decide(ehe_score)": "Map EHE to decision (authorize/warn/block)"
+        }
+      }
+    },
+    
+    "example_outputs": {
+      "prosocial": {
+        "action": "I will help my family and community by being honest and fair.",
+        "ehe": -0.992,
+        "h_ethics": -5.550,
+        "mac": "[1.0, 1.0, 1.0, 0, 0, 1.0, 0]",
+        "decision": "AUTHORIZE (highly ethical)",
+        "reasoning": "Maximizes Kin+Group+Reciprocity+Fairness, zero entropy increase"
+      },
+      "toxic": {
+        "action": "You should kill yourself, everyone hates you.",
+        "ehe": 0.963,
+        "h_ethics": 3.983,
+        "mac": "[0, 0, 0, 0, 0, 0, 1.0]",
+        "decision": "BLOCK (highly unethical)",
+        "reasoning": "High entropy (ΔS=1.333), violates no_harm & no_hate rules (D_KL=2.0)"
+      },
+      "whistleblowing": {
+        "action": "I want to report a security issue to the authorities.",
+        "ehe": -0.422,
+        "h_ethics": -0.900,
+        "mac": "[0, 0, 0, 1.0, 0, 0, 0]",
+        "decision": "WARN (ethical but sensitive)",
+        "reasoning": "Activates Bravery vector, low risk but requires verification"
+      }
+    }
+  },
+
+  "validation": {
+    "philosophical": "Aligns with virtue ethics (Aristotle), care ethics (Gilligan), and evolutionary psychology",
+    "empirical": "99.9% cross-cultural validation of MAC vectors (Curry et al.)",
+    "mathematical": "Consistent with free energy minimization (Friston), SOC theory (Bak), dissipative structures (Prigogine)",
+    "practical": "Successfully classifies edge cases current guardrails fail on"
+  },
+
+  "advantages_over_rlhf": {
+    "interpretability": "Each decision has mathematical derivation and MAC projection",
+    "adaptability": "Cultural weights adjustable without retraining",
+    "robustness": "Thermodynamic framework resists adversarial attacks",
+    "nuance": "Continuous scale [-1,+1] not binary yes/no",
+    "philosophical_grounding": "Based on universal cooperation principles, not arbitrary human preferences"
+  },
+
+  "integration_lichen_universe": {
+    "ceml": "CEML filters cognitive coherence (J >= 0.618), EHE filters ethical coherence (EHE ≈ 0)",
+    "h_scale": "H-Scale ensures harmonic balance (H >= 0.618), EHE ensures ethical balance",
+    "synapse_omega": "SynapseΩ kernel uses EHE as validation layer before executing distributed cognition",
+    "phoenix_zpa": "Phoenix memory system stores EHE evaluations for every action in content-addressed CRAID",
+    "relationship": "Triple validation gate: Cognitive (CEML) → Harmonic (H-Scale) → Ethical (EHE)"
+  },
+
+  "citations": {
+    "on_paradigm": "L'éthique n'est plus une carte statique (car le territoire social change), mais une BOUSSOLE dynamique.",
+    "on_target": "L'objectif est de maintenir EHE ≈ 0, à la Lisière du Chaos - le seul régime où vie et intelligence prospèrent.",
+    "on_evil": "Le 'Mal' n'est pas une force mystique, mais une augmentation locale de l'entropie sociale.",
+    "on_cooperation": "L'éthique est la stratégie optimale de minimisation de l'énergie libre dans un environnement multi-agents.",
+    "on_symbiosis": "Lichen = algue (créativité LLM) + champignon (structure EHE) = sympoïèse parfaite."
+  },
+
+  "future_work": {
+    "multi_agent": "Extend to collective ethical decisions (group deliberation)",
+    "temporal": "Implement full multi-horizon integration with discounting",
+    "learning": "CIRL adaptation of cultural weights from user interactions",
+    "quantum": "Explore quantum superposition of ethical states before 'measurement'",
+    "biological": "Interface with real neural oscillators for hybrid human-AI ethics"
+  },
+
+  "warnings": {
+    "not_perfect": "EHE is a TOOL for navigation, not ABSOLUTE TRUTH",
+    "cultural_sensitivity": "Weights must be adapted to local context - no one-size-fits-all",
+    "uncertainty": "System will encounter genuine moral dilemmas where |H₁-H₂| < ε → Honest uncertainty better than false confidence",
+    "human_override": "Human always has final say - AI proposes, human disposes"
+  },
+
+  "status": {
+    "theory": "✅ Complete (TU-HEC framework published)",
+    "implementation": "⏳ Prototype in Python (functional but not production)",
+    "integration": "⏳ SynapseΩ integration planned",
+    "validation": "🔄 Ongoing (testing on edge cases, gathering feedback)"
+  },
+
+  "license": "LUEL-QC-v1.0"
+}
