@@ -1,6 +1,6 @@
-# 🌀 LICHEN UNIVERSE V3.0.3 - MANIFEST COMPLET
-
 <div align="center">
+  
+# 🌀 LICHEN UNIVERSE V3.0.3 - MANIFEST COMPLET
 
 [![Manifest Version](https://img.shields.io/badge/manifest-v3.0.2-00FF94?style=for-the-badge&logo=json&logoColor=white)](manifest.json)
 [![Status](https://img.shields.io/badge/status-production-00FF94?style=for-the-badge)](CHANGELOG.md)
