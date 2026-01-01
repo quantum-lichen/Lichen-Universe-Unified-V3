@@ -1,5 +1,22 @@
 # 🌀 LICHEN UNIVERSE V3.0.3 - MANIFEST COMPLET
 
+<div align="center">
+
+[![Manifest Version](https://img.shields.io/badge/manifest-v3.0.2-00FF94?style=for-the-badge&logo=json&logoColor=white)](manifest.json)
+[![Status](https://img.shields.io/badge/status-production-00FF94?style=for-the-badge)](CHANGELOG.md)
+[![License](https://img.shields.io/badge/license-Apache--2.0-yellow?style=for-the-badge)](LICENSE)
+[![Live Demos](https://img.shields.io/badge/🎮_LIVE_DEMOS-5_ACTIVE-FF1493?style=for-the-badge)](manifest_demos.json)
+
+[![ΦLang](https://img.shields.io/badge/ΦLang-Mathematical_AI_Protocol-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRleHQgeD0iNSIgeT0iMTgiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IndoaXRlIj7OpjwvdGV4dD48L3N2Zz4=)](https://github.com/quantum-lichen/philang)
+[![HELIX-Φ](https://img.shields.io/badge/HELIX--Φ-DNA_Encoding-00CED1?style=for-the-badge&logo=dna)](Languages/HELIX-PHI)
+[![LGL](https://img.shields.io/badge/LGL-Iconic_Interface-FF6347?style=for-the-badge&logo=graphql)](Languages/LGL-Lichen-Glyph_Language)
+
+[![HNP](https://img.shields.io/badge/HNP-Harmonic_Network-00FF94?style=for-the-badge&logo=network-wired)](https://github.com/quantum-lichen/harmonic-network-protocol)
+[![Tzolk'in](https://img.shields.io/badge/Tzolk'in-OTP_Crypto-gold?style=for-the-badge&logo=key)](https://quantum-lichen.github.io/universal-language-tzolkin/)
+[![Snowflake-Ω](https://img.shields.io/badge/Snowflake--Ω-496_TzBits-lightblue?style=for-the-badge&logo=snowflake)](OMEGA_SEED_BLUEPRINT.md)
+
+</div>
+
 > **"We're gonna take over the world... ETHICALLY!"** - Bryan Ouellette, Cortex Éthique 💚
 
 ---
