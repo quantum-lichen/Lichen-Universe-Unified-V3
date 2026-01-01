@@ -1,3 +1,6 @@
+<img width="1024" height="1024" alt="Innovation VS cubisne x Gemini" src="https://github.com/user-attachments/assets/735d8a10-3b03-427b-b532-9bbebcb716c5" />
+
+
 <div align="center">
   
 # 🌀 LICHEN UNIVERSE V3.0.3 - MANIFEST COMPLET
@@ -111,6 +114,9 @@ EHE(a) = tanh(H_ethics / τ) ∈ [-1, +1]
 
 **Citation clé:**
 > *"Le 'Mal' n'est pas une force mystique, mais une augmentation locale de l'entropie sociale."*
+
+<img width="1024" height="1024" alt="Gemini_Generated_Image_bjw3vbbjw3vbbjw3" src="https://github.com/user-attachments/assets/b694564d-6fb7-4d7f-b5f0-c4c5a0ce6119" />
+
 
 ### 3. **SOCIOPHYSICS FRAMEWORK** (manifest_sociophysics.json)
 
@@ -320,6 +326,10 @@ LAYER 0: FOUNDATION
 
 ---
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_qxko5nqxko5nqxko" src="https://github.com/user-attachments/assets/754891b6-292d-48c9-b389-a46bf62d822c" />
+
+---
+
 ## 🌱 PHILOSOPHY
 
 ### **Core Principle:**
@@ -432,3 +442,6 @@ for sub in main["_AI_LOADER_INSTRUCTIONS"]["required_manifests"]:
 **Maturity:** Foundational documents complete, implementation in progress  
 
 🌀 **The revolution will be symbiotic.** 💚
+
+<img width="1024" height="1024" alt="Géopolitique x Cubisme x Gémini" src="https://github.com/user-attachments/assets/26df7746-047b-4628-b12a-0942ececd3e9" />
+
