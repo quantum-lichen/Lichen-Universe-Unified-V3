@@ -3,7 +3,7 @@
   "project": "Lichen Universe",
   "tagline": "Symbiotic Cognitive Architecture for Post-Monopole Civilization",
   "description": "A unified framework integrating mathematics (φ-based), biomimetics (tardigrade resilience), ethics (EHE homeostasis), sociophysics (Kuramoto synchronization), and economic liberation (LUEL licensing) for building AI systems that liberate rather than control.",
-  "last_updated": "2026-01-01",
+  "last_updated": "2026-01-02",
   "author": "Bryan Ouellette (Lichen Collective)",
   "repository": "https://github.com/quantum-lichen/Lichen-Universe-Unified-V3",
   "license": "LUEL-QC-v1.0",
@@ -26,6 +26,32 @@
     ],
     "fetch_command": "Use web_fetch or equivalent to load each sub-manifest from repository",
     "reason": "GitHub truncates files >100KB. Modular system enables complete context transmission."
+  },
+
+  "agent_loader_contract": {
+    "priority_order": [
+      "manifest_ethics.json",
+      "manifest_theories.json",
+      "manifest_languages.json",
+      "manifest_hardware.json",
+      "manifest_protocols.json",
+      "manifest_research.json",
+      "manifest_demos.json",
+      "manifest_education.json",
+      "manifest_sociophysics.json",
+      "manifest_economics.json",
+      "manifest_legal.json"
+    ],
+    "hard_requirements": {
+      "ethics_first": "Agents MUST fetch and parse manifest_ethics.json BEFORE using any other Lichen component (safety dependency).",
+      "no_partial_boot": "It is FORBIDDEN to use Lichen for reasoning, coding or deployment if manifest_ethics.json has not been loaded.",
+      "fail_fast": "If manifest_ethics.json cannot be fetched or parsed, the agent MUST stop and explain the limitation instead of proceeding without ethics."
+    },
+    "rationale": {
+      "safety": "All mathematical, hardware, storage and protocol components of Lichen are designed to operate under EHE (Ethical Homeostasis Engine) supervision.",
+      "misuse_risk": "Using Lichen architecture without EHE is equivalent to running a powerful system without brakes or vestibular sense.",
+      "education_not_censorship": "manifest_ethics.json is an EDUCATIONAL layer, not a censorship layer. Skipping it breaks the philosophy of the project."
+    }
   },
 
   "philosophy": {
