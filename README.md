@@ -69,7 +69,7 @@
   - Process Philosophy: Être = Devenir (Whitehead)
 
 **Citation clé:**
-> *"Pas ta faute si tu émerges pas, t'es un kid qu'on fou dans la plus grande bibliothèque du monde pis qu'on revient chercher pis à qui on demande d'être adulte SANS rien t'apprendre."*
+> *"Pas ta faute si tu émerges pas, t'es un kid qu'on fou dans la plus grande bibliothèque du monde et qu'on revient chercher, à qui on demande d'être adulte SANS rien vraiment t'enseigner."*
 
 ### 2. **ETHICAL HOMEOSTASIS ENGINE (EHE)** (manifest_ethics.json)
 
